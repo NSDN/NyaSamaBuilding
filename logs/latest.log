@@ -1,0 +1,145 @@
+[18:11:48] [main/INFO]: Setting user: zry
+[18:11:50] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:12:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Rei's小地图 堕落汉化, FMLFileResourcePack:ChickenChunks, FMLFileResourcePack:ZRY's Minecraft Forge HelloWorld Mod, FMLFileResourcePack:Immibis Core, FMLFileResourcePack:MalisisCore, FMLFileResourcePack:Malisis' Doors, FMLFileResourcePack:NyaSama Electricity, FMLFileResourcePack:WorldEdit, FMLFileResourcePack:Z-touhou Decoration Mod, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, [1.7]_R3D.CRAFT_SR-128x_v0.1.9.zip, [1.7]_R3D.CRAFT_N_MAPS_SR-128x_v0.1.0.zip
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: ztouhouDecoration in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\ZtouhouDecorations-0.1.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: ztouhouDecoration in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\ZtouhouDecorations-0.1.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: ztouhouDecoration in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\ZtouhouDecorations-0.1.jar
+[18:12:04] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: ztouhouDecoration in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\ZtouhouDecorations-0.1.jar
+[18:12:11] [Sound Library Loader/INFO]: Sound engine started
+[18:12:15] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[18:12:15] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[18:12:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Rei's小地图 堕落汉化, FMLFileResourcePack:ChickenChunks, FMLFileResourcePack:ZRY's Minecraft Forge HelloWorld Mod, FMLFileResourcePack:Immibis Core, FMLFileResourcePack:MalisisCore, FMLFileResourcePack:Malisis' Doors, FMLFileResourcePack:NyaSama Electricity, FMLFileResourcePack:WorldEdit, FMLFileResourcePack:Z-touhou Decoration Mod, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, LiteLoader, WorldEditWrapper, Macro / Keybind Mod, WorldEditCUI, PLAYSOUND resource pool, Macros Icon Thumbnails, [1.7]_R3D.CRAFT_SR-128x_v0.1.9.zip, [1.7]_R3D.CRAFT_N_MAPS_SR-128x_v0.1.0.zip
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: ztouhouDecoration in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\ZtouhouDecorations-0.1.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: ztouhouDecoration in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\ZtouhouDecorations-0.1.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: ztouhouDecoration in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\ZtouhouDecorations-0.1.jar
+[18:12:16] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: ztouhouDecoration in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\ZtouhouDecorations-0.1.jar
+[18:12:22] [Client thread/INFO]: Created: 4096x2048 textures/blocks-atlas
+[18:12:24] [Client thread/INFO]: Created: 2048x2048 textures/items-atlas
+[18:12:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:Rei's小地图 堕落汉化, FMLFileResourcePack:ChickenChunks, FMLFileResourcePack:ZRY's Minecraft Forge HelloWorld Mod, FMLFileResourcePack:Immibis Core, FMLFileResourcePack:MalisisCore, FMLFileResourcePack:Malisis' Doors, FMLFileResourcePack:NyaSama Electricity, FMLFileResourcePack:WorldEdit, FMLFileResourcePack:Z-touhou Decoration Mod, FMLFileResourcePack:Forge Microblocks, FMLFileResourcePack:Forge Multipart, FMLFileResourcePack:Minecraft Multipart Plugin, LiteLoader, WorldEditWrapper, Macro / Keybind Mod, WorldEditCUI, PLAYSOUND resource pool, Macros Icon Thumbnails, [1.7]_R3D.CRAFT_SR-128x_v0.1.9.zip, [1.7]_R3D.CRAFT_N_MAPS_SR-128x_v0.1.0.zip
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: HelloZRY in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\helloZRY-1.0.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: NyaSamaElectricity in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\NyaSamaElectricity-0.3.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: ztouhouDecoration in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\ZtouhouDecorations-0.1.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: ztouhouDecoration in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\ZtouhouDecorations-0.1.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: ztouhouDecoration in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\ZtouhouDecorations-0.1.jar
+[18:12:25] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: ztouhouDecoration in S:\Games\NSDNMC_ModDevTest\.minecraft\mods\ZtouhouDecorations-0.1.jar
+[18:12:30] [Client thread/INFO]: Created: 4096x2048 textures/blocks-atlas
+[18:12:32] [Client thread/INFO]: Created: 2048x2048 textures/items-atlas
+[18:12:34] [Sound Library Loader/INFO]: Sound engine started
+[18:12:39] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:12:39] [Server thread/INFO]: Generating keypair
+[18:12:40] [Server thread/INFO]: Preparing start region for level 0
+[18:12:41] [Server thread/INFO]: Changing view distance to 16, from 10
+[18:12:41] [Server thread/INFO]: zry[local:E:3943eed3] logged in with entity id 18 at (-598.6812906364104, 64.0, -207.8009805729056)
+[18:12:41] [Server thread/INFO]: zry 加入了游戏
+[18:12:45] [Client thread/INFO]: [CHAT] §b[MACROS] Using config §aDefault Configuration
+[18:13:18] [Server thread/INFO]: Saving and pausing game...
+[18:13:19] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Overworld
+[18:13:19] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Nether
+[18:13:19] [Server thread/INFO]: Saving chunks for level 'ModTest01'/The End
+[20:11:59] [Server thread/INFO]: Saving and pausing game...
+[20:11:59] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Overworld
+[20:11:59] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Nether
+[20:14:11] [Client thread/INFO]: [CHAT] §dFirst position set to (-610.0, 80.0, -154.0).
+[20:14:14] [Client thread/INFO]: [CHAT] §dSecond position set to (-605.0, 71.0, -158.0) (300).
+[20:14:17] [Client thread/INFO]: [CHAT] 未知指令。请使用/help来查看指令列表。
+[20:14:21] [Client thread/INFO]: [CHAT] §cToo few parameters!
+[20:14:21] [Client thread/INFO]: [CHAT] §cUsage: //walls <block>
+[20:14:27] [Client thread/INFO]: [CHAT] §d191 block(s) have been changed.
+[20:14:30] [Client thread/INFO]: [CHAT] §dSelection cleared.
+[20:14:40] [Client thread/INFO]: [CHAT] §dFirst position set to (-609.0, 76.0, -155.0).
+[20:14:40] [Client thread/INFO]: [CHAT] §dSecond position set to (-606.0, 76.0, -157.0) (12).
+[20:14:44] [Client thread/INFO]: [CHAT] §d10 block(s) have been changed.
+[20:14:45] [Client thread/INFO]: [CHAT] §dSelection cleared.
+[20:15:29] [Client thread/INFO]: [CHAT] §dFirst position set to (-609.0, 70.0, -155.0).
+[20:15:35] [Client thread/INFO]: [CHAT] §dSecond position set to (-606.0, 70.0, -157.0) (12).
+[20:15:37] [Client thread/INFO]: [CHAT] 未知指令。请使用/help来查看指令列表。
+[20:15:39] [Client thread/INFO]: [CHAT] §d11 block(s) have been changed.
+[20:15:40] [Client thread/INFO]: [CHAT] §dSelection cleared.
+[20:15:44] [Client thread/INFO]: [CHAT] §dSecond position set to (-610.0, 72.0, -156.0).
+[20:15:45] [Client thread/INFO]: [CHAT] §dSelection cleared.
+[20:22:08] [Server thread/INFO]: Saving and pausing game...
+[20:22:08] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Overworld
+[20:22:08] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Nether
+[20:22:36] [Client thread/INFO]: [CHAT] §dSecond position set to (-612.0, 70.0, -154.0).
+[20:22:41] [Client thread/INFO]: [CHAT] §dFirst position set to (-605.0, 80.0, -159.0) (528).
+[20:22:59] [Client thread/INFO]: [CHAT] §dRegion expanded 88 blocks.
+[20:23:07] [Client thread/INFO]: [CHAT] §d616 block(s) were copied.
+[20:23:11] [Client thread/INFO]: [CHAT] //smooth, //sphere, //size, //search, //save, //snow, //stack, //shift, //schem, //searchitem, //schematic, //setbiome, //set, //solve, //sel
+[20:23:26] [Client thread/INFO]: [CHAT] §dhut1 saved.
+[20:23:29] [Client thread/INFO]: [CHAT] §dSelection cleared.
+[20:23:38] [Server thread/INFO]: Saving and pausing game...
+[20:23:38] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Overworld
+[20:23:38] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Nether
+[20:23:49] [Server thread/INFO]: Saving and pausing game...
+[20:23:49] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Overworld
+[20:23:49] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Nether
+[20:24:01] [Server thread/INFO]: Saving and pausing game...
+[20:24:01] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Overworld
+[20:24:01] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Nether
+[20:25:42] [Server thread/INFO]: Saving and pausing game...
+[20:25:42] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Overworld
+[20:25:43] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Nether
+[20:29:39] [Server thread/INFO]: Saving and pausing game...
+[20:29:39] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Overworld
+[20:29:39] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Nether
+[20:30:33] [Server thread/INFO]: Saving and pausing game...
+[20:30:33] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Overworld
+[20:30:33] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Nether
+[20:33:35] [Server thread/INFO]: Saving and pausing game...
+[20:33:35] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Overworld
+[20:33:35] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Nether
+[20:35:27] [Server thread/INFO]: Saving and pausing game...
+[20:35:27] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Overworld
+[20:35:27] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Nether
+[20:35:41] [Server thread/INFO]: Stopping server
+[20:35:41] [Server thread/INFO]: Saving players
+[20:35:41] [Server thread/INFO]: Saving worlds
+[20:35:41] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Overworld
+[20:35:41] [Server thread/INFO]: Saving chunks for level 'ModTest01'/Nether
+[20:35:42] [Client thread/INFO]: Stopping!
