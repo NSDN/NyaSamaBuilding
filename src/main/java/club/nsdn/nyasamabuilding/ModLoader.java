@@ -14,12 +14,12 @@ import java.io.PrintStream;
 @Mod(modid = ModLoader.MODID, version = ModLoader.VERSION)
 public class ModLoader
 {
-    public static final String MODID = "ztouhouDecoration";
-    public static final String VERSION = "0.1";
+    public static final String MODID = "NyaSamaBuilding";
+    public static final String VERSION = "0.3";
 
     public static PrintStream console = new PrintStream(new FileOutputStream(FileDescriptor.out));
 
-    @Mod.Instance("gui")
+    @Mod.Instance("NyaSamaBuilding")
     public static ModLoader instance;
     
 //    @EventHandler
@@ -29,8 +29,8 @@ public class ModLoader
 //        System.out.println("DIRT BLOCK >> "+Blocks.dirt.getUnlocalizedName());
 //    }
 
-    @SidedProxy(clientSide = "ClientProxy",
-            serverSide = "CommonProxy")
+    @SidedProxy(clientSide = "club.nsdn.nyasamabuilding.Proxy.ClientProxy",
+            serverSide = "club.nsdn.nyasamabuilding.Proxy.CommonProxy")
     public static CommonProxy proxy;
 
     @EventHandler

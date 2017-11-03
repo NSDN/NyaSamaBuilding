@@ -22,6 +22,9 @@
       <module name="MCMod_HelloZRY_api" target="1.6" />
       <module name="MCMod_HelloZRY_main" target="1.6" />
       <module name="MCMod_HelloZRY_test" target="1.6" />
+      <module name="MCMod_NyaBuilding_Exp_api" target="1.6" />
+      <module name="MCMod_NyaBuilding_Exp_main" target="1.6" />
+      <module name="MCMod_NyaBuilding_Exp_test" target="1.6" />
       <module name="MCMod_ztouhouDecoration_api" target="1.6" />
       <module name="MCMod_ztouhouDecoration_main" target="1.6" />
       <module name="MCMod_ztouhouDecoration_test" target="1.6" />

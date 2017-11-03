@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MCMod_ztouhouDecoration.iml" filepath="$PROJECT_DIR$/.idea/modules/MCMod_ztouhouDecoration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MCMod_ztouhouDecoration_api.iml" filepath="$PROJECT_DIR$/.idea/modules/MCMod_ztouhouDecoration_api.iml" group="MCMod_ztouhouDecoration" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MCMod_ztouhouDecoration_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MCMod_ztouhouDecoration_main.iml" group="MCMod_ztouhouDecoration" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MCMod_ztouhouDecoration_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MCMod_ztouhouDecoration_test.iml" group="MCMod_ztouhouDecoration" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MCMod_NyaBuilding_Exp.iml" filepath="$PROJECT_DIR$/.idea/modules/MCMod_NyaBuilding_Exp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MCMod_NyaBuilding_Exp_api.iml" filepath="$PROJECT_DIR$/.idea/modules/MCMod_NyaBuilding_Exp_api.iml" group="MCMod_NyaBuilding_Exp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MCMod_NyaBuilding_Exp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MCMod_NyaBuilding_Exp_main.iml" group="MCMod_NyaBuilding_Exp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MCMod_NyaBuilding_Exp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MCMod_NyaBuilding_Exp_test.iml" group="MCMod_NyaBuilding_Exp" />
     </modules>
   </component>
 </project>

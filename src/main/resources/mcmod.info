@@ -1,14 +1,14 @@
 [
 {
-  "modid": "NyasamaBuilding",
-  "name": "Nyasama Building (Civil Engineering) Mod.",
+  "modid": "NyaSamaBuilding",
+  "name": "NyaSama Building (Civil Engineering) Mod.",
   "description": "喵玉土木",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "http://mc.nsdn.club/",
   "updateUrl": "",
   "authorList": ["zry (A member of NSDN and z-touhou)","http://z-touhou.org/","http://mc.nsdn.club/"],
-  "credits": "NSDN(Nyasama Developing Network) and z-touhou(Z神社). Some textures are from the Internet (Start game and place a LogoBlock, then right click on it to find detial informations).",
+  "credits": "NSDN(Nyasama Developer Network) and z-touhou(Z神社). Some textures are from the Internet (Start game and place a LogoBlock, then right click on it to find detial informations).",
   "logoFile": "test.log",
   "screenshots": [],
   "dependencies": []

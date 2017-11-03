@@ -10,13 +10,13 @@ import net.minecraft.item.Item;
 
 public class CreativeTabLoader {
 
-    public static CreativeTabs tabNyaSamaBuilding
+    public static CreativeTabs tabNyaSamaBuilding;
 
     public CreativeTabLoader(FMLPreInitializationEvent event) {
-        tabNyaSamaBuilding = new CreativeTabs("tabNyaSamaBuilding\n") {
+        tabNyaSamaBuilding = new CreativeTabs("tabNyaSamaBuilding") {
             @Override
             public Item getTabIconItem() {
-                return Item.getItemFromBlock(BlockLoader.fireEmgLightCelling);
+                return Item.getItemFromBlock(BlockLoader.logoBlock);
             }
         };
     }
