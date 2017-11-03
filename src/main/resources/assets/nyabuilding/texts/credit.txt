@@ -1,0 +1,12 @@
+Nyasama Building Mod
+Mod Author: ZRY (A member of NSDN and z-touhou).
+Develop Support: 
+    NSDN (Nyasama Developer Network) http://mc.nsdn.club/
+    z-touhou Associations http://z-touhou.org/
+
+Some Textures Are Derivatived From:
+    DasLisal - MC 1.7.4 [x128] Smooth Realistic v6.zip
+    Valve Software - Half-Life 2
+    Valve Software - Portal 2
+    Valve Software - Counter-Strike: Global Offensive
+    ......
