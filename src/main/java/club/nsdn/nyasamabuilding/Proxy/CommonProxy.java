@@ -4,7 +4,7 @@ package club.nsdn.nyasamabuilding.Proxy;
  * Created by drzzm32 on 2016.3.25.
  */
 
-import club.nsdn.nyasamabuilding.Blocks.WithEntity.BlockNyasamaBuildingLogo;
+import club.nsdn.nyasamabuilding.Blocks.WithEntity.BlockNyaSamaBuildingLogo;
 import club.nsdn.nyasamabuilding.GUI.SvrContainer.svrctCreditScreen;
 import club.nsdn.nyasamabuilding.Loaders.BlockLoader;
 import club.nsdn.nyasamabuilding.Loaders.CreativeTabLoader;
@@ -42,7 +42,7 @@ public class CommonProxy
     public Object getServerGuiElement(int id, EntityPlayer player, World world,
                                       int x, int y, int z) {
         TileEntity tileEntity = world.getTileEntity(x, y, z);
-        if(tileEntity instanceof BlockNyasamaBuildingLogo.TileEntityNyasamaBuildingLogo){
+        if(tileEntity instanceof BlockNyaSamaBuildingLogo.TileEntityNyasamaBuildingLogo){
             return new svrctCreditScreen();
         }
         return null;
@@ -53,7 +53,7 @@ public class CommonProxy
     public Object getClientGuiElement(int id, EntityPlayer player, World world,
                                       int x, int y, int z) {
         TileEntity tileEntity = world.getTileEntity(x, y, z);
-        if(tileEntity instanceof BlockNyasamaBuildingLogo.TileEntityNyasamaBuildingLogo){
+        if(tileEntity instanceof BlockNyaSamaBuildingLogo.TileEntityNyasamaBuildingLogo){
             return new scrCreditScreen();
         }
         return null;

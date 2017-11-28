@@ -12,15 +12,15 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 import club.nsdn.nyasamabuilding.ModLoader;
 
-public class BlockNyasamaBuildingLogo extends CommonBlockContainerBase {
+public class BlockNyaSamaBuildingLogo extends CommonBlockContainerBase {
 
     public static class TileEntityNyasamaBuildingLogo extends TileEntity {
     }
 
-    public BlockNyasamaBuildingLogo(){
+    public BlockNyaSamaBuildingLogo(){
         super(Material.glass,"NyasamaBuildingLogo");
-        setIconLocation("nyabuilding:logo");
-        setBlockTextureName("nyabuilding:logo");
+        setIconLocation("nyasamabuilding:logo");
+        setBlockTextureName("nyasamabuilding:logo");
         setHardness(2.0F);
         setLightLevel(0.75F);
         setStepSound(soundTypeGlass);

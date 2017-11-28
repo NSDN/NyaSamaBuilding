@@ -5,16 +5,20 @@ package club.nsdn.nyasamabuilding.Blocks.BlockExtension;
  */
 
 import club.nsdn.nyasamabuilding.Blocks.Base.CommonBlockBase;
+import club.nsdn.nyasamabuilding.Loaders.BlockLoader;
 import club.nsdn.nyasamabuilding.Loaders.CreativeTabLoader;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.Material;
-import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
-import net.minecraft.util.IIcon;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.Facing;
 import net.minecraft.world.IBlockAccess;
+import net.minecraft.world.World;
 
 public class BlockExtSlab extends BlockSlab {
 
@@ -46,4 +50,75 @@ public class BlockExtSlab extends BlockSlab {
     {
         return false;
     }
+
+    @Override
+    @SideOnly(Side.CLIENT)
+    public boolean shouldSideBeRendered(IBlockAccess world, int x, int y, int z, int facing) {
+        if (this.field_150004_a) {
+            return super.shouldSideBeRendered(world, x, y, z, facing);
+        } else if (facing != 1 && facing != 0 && !super.shouldSideBeRendered(world, x, y, z, facing)) {
+            return false;
+        } else {
+            int var6 = x + Facing.offsetsXForSide[Facing.oppositeSide[facing]];
+            int var7 = y + Facing.offsetsYForSide[Facing.oppositeSide[facing]];
+            int var8 = z + Facing.offsetsZForSide[Facing.oppositeSide[facing]];
+            boolean onTop = (world.getBlockMetadata(var6, var7, var8) & 8) != 0;
+            if (onTop) {
+                if (facing == 0) {
+                    return true;
+                } else if (facing == 1 && super.shouldSideBeRendered(world, x, y, z, facing)) {
+                    return true;
+                } else {
+                    return !func_150003_a(world.getBlock(x, y, z)) || (world.getBlockMetadata(x, y, z) & 8) == 0;
+                }
+            } else if (facing == 1) {
+                return true;
+            } else if (facing == 0 && super.shouldSideBeRendered(world, x, y, z, facing)) {
+                return true;
+            } else {
+                return !func_150003_a(world.getBlock(x, y, z)) || (world.getBlockMetadata(x, y, z) & 8) != 0;
+            }
+        }
+    }
+
+    @SideOnly(Side.CLIENT)
+    protected static boolean func_150003_a(Block block) {
+        return block instanceof BlockExtSlab;
+    }
+
+    @Override
+    @SideOnly(Side.CLIENT)
+    public Item getItem(World world, int x, int y, int z) {
+        if (func_150003_a(this)) {
+            return Item.getItemFromBlock(this);
+        } else {
+            return Item.getItemFromBlock(Blocks.stone_slab);
+        }
+    }
+
+    public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int facing, float hitX, float hitY, float hitZ) {
+        Block block = world.getBlock(x, y, z), target = null;
+        ItemStack stack = player.getCurrentEquippedItem();
+
+        if (block != null && stack != null) {
+            if (block.getItem(world, x, y, z) == stack.getItem()) {
+                if (hitY == 0.5) {
+                    String key = block.getUnlocalizedName().toLowerCase();
+                    key = key.replace("tile.", "");
+                    key = key.replace("slab", "");
+                    for (String i : BlockLoader.blocks.keySet()) {
+                        if (i.toLowerCase().equals(key)) {
+                            target = BlockLoader.blocks.get(i);
+                            break;
+                        }
+                    }
+                    if (target != null) world.setBlock(x, y, z, target);
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
 }

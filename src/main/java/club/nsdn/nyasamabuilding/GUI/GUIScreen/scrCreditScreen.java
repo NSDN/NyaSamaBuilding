@@ -29,7 +29,7 @@ public class scrCreditScreen extends GuiScreen {
         //这里部署控件
         String sCurrentLine = "";
         try {
-            ResourceLocation rl = new ResourceLocation("nyabuilding:texts/credit.txt");
+            ResourceLocation rl = new ResourceLocation("nyasamabuilding:texts/credit.txt");
             IResourceManager irm = this.mc.getResourceManager();
             InputStream is = irm.getResource(rl).getInputStream();
             BufferedReader br=new BufferedReader(new InputStreamReader(is,Charsets.UTF_8));
