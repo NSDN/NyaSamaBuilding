@@ -101,7 +101,7 @@ public class BlockExtSlab extends BlockSlab {
         ItemStack stack = player.getCurrentEquippedItem();
 
         if (block != null && stack != null) {
-            if (block.getItem(world, x, y, z) == stack.getItem()) {
+            if (Item.getItemFromBlock(block) == stack.getItem()) {
                 if (hitY == 0.5) {
                     String key = block.getUnlocalizedName().toLowerCase();
                     key = key.replace("tile.", "");
@@ -112,7 +112,13 @@ public class BlockExtSlab extends BlockSlab {
                             break;
                         }
                     }
-                    if (target != null) world.setBlock(x, y, z, target);
+                    if (target != null) {
+                        world.setBlock(x, y, z, target);
+                        world.playSoundEffect(
+                                (double)((float)x + 0.5F), (double)((float)y + 0.5F), (double)((float)z + 0.5F),
+                                block.stepSound.getBreakSound(), (block.stepSound.getVolume() + 1.0F) / 2.0F, block.stepSound.getPitch() * 0.8F
+                        );
+                    }
                     return true;
                 }
             }
