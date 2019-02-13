@@ -15,6 +15,7 @@ public class BlockStairs extends net.minecraft.block.BlockStairs {
     public BlockStairs(IBlockState state, String name, String id) {
         super(state);
         baseBlockState = state;
+        setLightOpacity(0);
         setUnlocalizedName(name);
         setRegistryName(NyaSamaBuilding.MODID, id);
         setCreativeTab(CreativeTabLoader.tabNyaSamaBuilding);
