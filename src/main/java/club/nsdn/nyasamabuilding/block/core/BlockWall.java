@@ -3,7 +3,7 @@ package club.nsdn.nyasamabuilding.block.core;
 import club.nsdn.nyasamabuilding.NyaSamaBuilding;
 import club.nsdn.nyasamabuilding.creativetab.CreativeTabLoader;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.client.resources.I18n;
+import net.minecraft.util.text.translation.I18n;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
@@ -29,9 +29,9 @@ public class BlockWall extends net.minecraft.block.BlockWall {
         if (baseBlockState != null)
             baseName = baseBlockState.getBlock().getLocalizedName();
         else
-            baseName = I18n.format(getUnlocalizedName() + ".name");
+            baseName = I18n.translateToLocal(getUnlocalizedName() + ".name");
         String blockType = getClass().getSimpleName().replace("Block", "");
-        return baseName + I18n.format("trans." + blockType + ".name");
+        return baseName + I18n.translateToLocal("trans." + blockType + ".name");
     }
 
     @Override

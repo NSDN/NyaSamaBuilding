@@ -7,7 +7,7 @@ import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.client.resources.I18n;
+import net.minecraft.util.text.translation.I18n;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.AxisAlignedBB;
@@ -48,9 +48,9 @@ public class BlockVStrip extends Block {
         if (baseBlockState != null)
             baseName = baseBlockState.getBlock().getLocalizedName();
         else
-            baseName = I18n.format(getUnlocalizedName() + ".name");
+            baseName = I18n.translateToLocal(getUnlocalizedName() + ".name");
         String blockType = getClass().getSimpleName().replace("Block", "");
-        return baseName + I18n.format("trans." + blockType + ".name");
+        return baseName + I18n.translateToLocal("trans." + blockType + ".name");
     }
 
     @Override
