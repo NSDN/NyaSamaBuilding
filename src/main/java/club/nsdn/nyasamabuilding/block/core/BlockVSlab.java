@@ -190,6 +190,17 @@ public class BlockVSlab extends BlockStairs {
     }
 
     @Override
+    public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess world, BlockPos pos) {
+        EnumShape shape = state.getValue(SHAPE);
+        if (shape == EnumShape.STRAIGHT)
+            return getCollQuarterBlock(state);
+        else if (shape == EnumShape.INNER_LEFT || shape == EnumShape.INNER_RIGHT)
+            return Block.FULL_BLOCK_AABB;
+        else
+            return getCollEighthBlock(state);
+    }
+
+    @Override
     @SideOnly(Side.CLIENT)
     public AxisAlignedBB getSelectedBoundingBox(IBlockState state, World world, BlockPos pos) {
         EnumShape shape = state.getValue(SHAPE);

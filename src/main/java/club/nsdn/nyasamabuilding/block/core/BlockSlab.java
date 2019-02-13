@@ -24,6 +24,7 @@ public class BlockSlab extends net.minecraft.block.BlockSlab {
     public BlockSlab(IBlockState state, String name, String id) {
         super(state.getMaterial());
         this.baseBlockState = state;
+        setLightOpacity(0);
         setUnlocalizedName(name);
         setRegistryName(NyaSamaBuilding.MODID, id);
         setHardness(state.getBlockHardness(null, null));

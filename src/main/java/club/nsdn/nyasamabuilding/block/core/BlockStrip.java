@@ -167,6 +167,17 @@ public class BlockStrip extends BlockStairs {
     }
 
     @Override
+    public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess world, BlockPos pos) {
+        EnumShape shape = state.getValue(SHAPE);
+        if (shape == EnumShape.STRAIGHT)
+            return getCollQuarterBlock(state);
+        else if (shape == EnumShape.INNER_LEFT || shape == EnumShape.INNER_RIGHT)
+            return state.getValue(HALF) == EnumHalf.BOTTOM ? AABB_SLAB_TOP : AABB_SLAB_BOTTOM;
+        else
+            return getCollEighthBlock(state);
+    }
+
+    @Override
     @SideOnly(Side.CLIENT)
     public AxisAlignedBB getSelectedBoundingBox(IBlockState state, World world, BlockPos pos) {
         EnumShape shape = state.getValue(SHAPE);
