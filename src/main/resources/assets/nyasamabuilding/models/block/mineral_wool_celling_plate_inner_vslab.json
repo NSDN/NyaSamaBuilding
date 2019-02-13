@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/inner_vslab",
+    "textures": {
+        "bottom": "nyasamabuilding:block/mineral_wool_celling_plate",
+        "top": "nyasamabuilding:block/mineral_wool_celling_plate",
+        "side": "nyasamabuilding:block/mineral_wool_celling_plate"
+    }
+}

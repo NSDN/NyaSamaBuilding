@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "top": "nyasamabuilding:block/road_dark_grey_tile",
+      "side": "nyasamabuilding:block/road_dark_grey_tile",
+      "bottom": "nyasamabuilding:block/road_dark_grey_tile",
+      "face": "nyasamabuilding:block/road_dark_grey_tile"
+    },
+    "model": "nyasamabuilding:base/edge_tall"
+  },
+  "variants": {
+    "normal": [{}],
+    "facing": {
+      "north": { "y": 90, "uvlock": true },
+      "south": { "y": 270, "uvlock": true },
+      "west": { "uvlock": true },
+      "east": { "y": 180, "uvlock": true }
+    },
+    "half": {
+      "top": { "model": "nyasamabuilding:base/edge_top" },
+      "bottom": { "model": "nyasamabuilding:base/edge_bottom" },
+      "tall": {  }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/inner_strip",
+    "textures": {
+        "bottom": "nyasamabuilding:block/concrete_wall",
+        "top": "nyasamabuilding:block/concrete_wall",
+        "side": "nyasamabuilding:block/concrete_wall"
+    }
+}

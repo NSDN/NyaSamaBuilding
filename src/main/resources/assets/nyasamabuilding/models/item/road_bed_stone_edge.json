@@ -1,0 +1,9 @@
+{
+  "parent": "nyasamabuilding:base/edge_tall",
+  "textures": {
+    "top": "nyasamabuilding:block/road_bed_stone",
+    "side": "nyasamabuilding:block/road_bed_stone",
+    "bottom": "nyasamabuilding:block/road_bed_stone",
+    "face": "nyasamabuilding:block/road_bed_stone"
+  }
+}

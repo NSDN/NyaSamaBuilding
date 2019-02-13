@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_gate_open",
+    "textures": {
+        "texture": "nyasamabuilding:block/rusty_tread_steel_plate"
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "nyasamabuilding:base/edge_tall",
+  "textures": {
+    "top": "nyasamabuilding:block/anti_static_floor",
+    "side": "nyasamabuilding:block/anti_static_floor",
+    "bottom": "nyasamabuilding:block/anti_static_floor",
+    "face": "nyasamabuilding:block/anti_static_floor"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_side",
+    "textures": {
+        "wall": "nyasamabuilding:block/red_ko_mak"
+    }
+}

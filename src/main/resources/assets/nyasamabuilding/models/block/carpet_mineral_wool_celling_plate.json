@@ -1,0 +1,7 @@
+{
+    "parent": "block/carpet",
+    "textures": {
+        "particle": "nyasamabuilding:block/mineral_wool_celling_plate",
+        "wool": "nyasamabuilding:block/mineral_wool_celling_plate"
+    }
+}

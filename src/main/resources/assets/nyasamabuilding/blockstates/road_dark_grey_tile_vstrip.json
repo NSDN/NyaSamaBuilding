@@ -1,0 +1,20 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+      "textures": {
+        "top": "nyasamabuilding:block/road_dark_grey_tile",
+        "side": "nyasamabuilding:block/road_dark_grey_tile",
+        "bottom": "nyasamabuilding:block/road_dark_grey_tile"
+      },
+      "model": "nyasamabuilding:base/vstrip"
+    },
+    "variants": {
+      "normal": [{}],
+      "facing": {
+        "north": { "y": 270, "uvlock": true },
+        "south": { "y": 90, "uvlock": true },
+        "west": { "y": 180, "uvlock": true },
+        "east": { "uvlock": true }
+      }
+    }
+  }

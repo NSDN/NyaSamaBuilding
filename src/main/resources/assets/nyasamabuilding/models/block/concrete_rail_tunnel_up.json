@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "nyasamabuilding:block/concrete_rail_tunnel_up"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/inner_strip",
+    "textures": {
+        "bottom": "nyasamabuilding:block/plazza_floor",
+        "top": "nyasamabuilding:block/plazza_floor",
+        "side": "nyasamabuilding:block/plazza_floor"
+    }
+}

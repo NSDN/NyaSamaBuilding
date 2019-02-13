@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_gate_closed",
+    "textures": {
+        "texture": "nyasamabuilding:block/concrete_brick_wall"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_gate_open",
+    "textures": {
+        "texture": "nyasamabuilding:block/grey_brick"
+    }
+}

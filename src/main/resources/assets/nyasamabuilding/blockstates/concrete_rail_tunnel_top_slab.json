@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "nyasamabuilding:half_slab_concrete_rail_tunnel_top" },
+        "half=top": { "model": "nyasamabuilding:upper_slab_concrete_rail_tunnel_top" }
+    }
+}

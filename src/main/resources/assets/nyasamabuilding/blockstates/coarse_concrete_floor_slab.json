@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "nyasamabuilding:half_slab_coarse_concrete_floor" },
+        "half=top": { "model": "nyasamabuilding:upper_slab_coarse_concrete_floor" }
+    }
+}

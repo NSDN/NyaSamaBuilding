@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "nyasamabuilding:dense_concrete_wall" }
+    }
+}

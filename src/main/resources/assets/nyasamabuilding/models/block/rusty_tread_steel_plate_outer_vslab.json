@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/outer_vslab",
+    "textures": {
+        "bottom": "nyasamabuilding:block/rusty_tread_steel_plate",
+        "top": "nyasamabuilding:block/rusty_tread_steel_plate",
+        "side": "nyasamabuilding:block/rusty_tread_steel_plate"
+    }
+}

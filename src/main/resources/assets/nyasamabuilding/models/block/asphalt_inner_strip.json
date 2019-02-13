@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/inner_strip",
+    "textures": {
+        "bottom": "nyasamabuilding:block/asphalt",
+        "top": "nyasamabuilding:block/asphalt",
+        "side": "nyasamabuilding:block/asphalt"
+    }
+}

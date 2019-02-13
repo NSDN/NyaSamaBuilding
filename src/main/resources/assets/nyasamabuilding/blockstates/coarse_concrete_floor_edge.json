@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "top": "nyasamabuilding:block/coarse_concrete_floor",
+      "side": "nyasamabuilding:block/coarse_concrete_floor",
+      "bottom": "nyasamabuilding:block/coarse_concrete_floor",
+      "face": "nyasamabuilding:block/coarse_concrete_floor"
+    },
+    "model": "nyasamabuilding:base/edge_tall"
+  },
+  "variants": {
+    "normal": [{}],
+    "facing": {
+      "north": { "y": 90, "uvlock": true },
+      "south": { "y": 270, "uvlock": true },
+      "west": { "uvlock": true },
+      "east": { "y": 180, "uvlock": true }
+    },
+    "half": {
+      "top": { "model": "nyasamabuilding:base/edge_top" },
+      "bottom": { "model": "nyasamabuilding:base/edge_bottom" },
+      "tall": {  }
+    }
+  }
+}

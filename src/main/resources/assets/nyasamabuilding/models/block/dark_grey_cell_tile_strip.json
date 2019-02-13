@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/strip",
+    "textures": {
+        "bottom": "nyasamabuilding:block/dark_grey_cell_tile",
+        "top": "nyasamabuilding:block/dark_grey_cell_tile",
+        "side": "nyasamabuilding:block/dark_grey_cell_tile"
+    }
+}

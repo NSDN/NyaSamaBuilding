@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "nyasamabuilding:block/light_grey_cell_tile"
+    }
+}

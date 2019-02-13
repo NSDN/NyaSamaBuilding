@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_post",
+    "textures": {
+        "edge": "nyasamabuilding:block/concrete_rail_tunnel_up",
+        "pane": "nyasamabuilding:block/concrete_rail_tunnel_up"
+    }
+}

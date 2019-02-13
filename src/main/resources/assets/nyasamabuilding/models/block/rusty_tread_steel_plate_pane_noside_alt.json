@@ -1,0 +1,6 @@
+{
+    "parent": "block/pane_noside_alt",
+    "textures": {
+        "pane": "nyasamabuilding:block/rusty_tread_steel_plate"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+      "textures": {
+        "top": "nyasamabuilding:block/oblique_paving_brick",
+        "side": "nyasamabuilding:block/oblique_paving_brick",
+        "bottom": "nyasamabuilding:block/oblique_paving_brick"
+      },
+      "model": "nyasamabuilding:base/vstrip"
+    },
+    "variants": {
+      "normal": [{}],
+      "facing": {
+        "north": { "y": 270, "uvlock": true },
+        "south": { "y": 90, "uvlock": true },
+        "west": { "y": 180, "uvlock": true },
+        "east": { "uvlock": true }
+      }
+    }
+  }

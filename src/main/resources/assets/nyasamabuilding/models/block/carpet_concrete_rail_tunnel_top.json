@@ -1,0 +1,7 @@
+{
+    "parent": "block/carpet",
+    "textures": {
+        "particle": "nyasamabuilding:block/concrete_rail_tunnel_top",
+        "wool": "nyasamabuilding:block/concrete_rail_tunnel_top"
+    }
+}

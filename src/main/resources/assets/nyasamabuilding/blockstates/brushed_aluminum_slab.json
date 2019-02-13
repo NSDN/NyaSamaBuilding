@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "nyasamabuilding:half_slab_brushed_aluminum" },
+        "half=top": { "model": "nyasamabuilding:upper_slab_brushed_aluminum" }
+    }
+}

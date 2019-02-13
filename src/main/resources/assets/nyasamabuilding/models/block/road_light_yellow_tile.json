@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "nyasamabuilding:block/road_light_yellow_tile"
+    }
+}

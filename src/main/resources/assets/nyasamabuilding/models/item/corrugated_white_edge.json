@@ -1,0 +1,9 @@
+{
+  "parent": "nyasamabuilding:base/edge_tall",
+  "textures": {
+    "top": "nyasamabuilding:block/corrugated_white",
+    "side": "nyasamabuilding:block/corrugated_white",
+    "bottom": "nyasamabuilding:block/corrugated_white",
+    "face": "nyasamabuilding:block/corrugated_white"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "nyasamabuilding:base/edge_tall",
+  "textures": {
+    "top": "nyasamabuilding:block/concrete_wall",
+    "side": "nyasamabuilding:block/concrete_wall",
+    "bottom": "nyasamabuilding:block/concrete_wall",
+    "face": "nyasamabuilding:block/concrete_wall"
+  }
+}

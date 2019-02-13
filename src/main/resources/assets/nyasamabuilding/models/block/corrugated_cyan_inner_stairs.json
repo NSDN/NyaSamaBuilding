@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "nyasamabuilding:block/corrugated_cyan",
+        "top": "nyasamabuilding:block/corrugated_cyan",
+        "side": "nyasamabuilding:block/corrugated_cyan"
+    }
+}

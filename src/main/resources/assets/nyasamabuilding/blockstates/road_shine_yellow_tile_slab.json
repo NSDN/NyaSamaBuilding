@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "nyasamabuilding:half_slab_road_shine_yellow_tile" },
+        "half=top": { "model": "nyasamabuilding:upper_slab_road_shine_yellow_tile" }
+    }
+}

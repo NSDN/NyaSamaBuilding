@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/vslab",
+    "textures": {
+        "bottom": "nyasamabuilding:block/#replace",
+        "top": "nyasamabuilding:block/#replace",
+        "side": "nyasamabuilding:block/#replace"
+    }
+}

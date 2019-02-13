@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_post",
+    "textures": {
+        "edge": "nyasamabuilding:block/anti_static_floor",
+        "pane": "nyasamabuilding:block/anti_static_floor"
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "nyasamabuilding:base/edge_tall",
+  "textures": {
+    "top": "nyasamabuilding:block/plazza_floor",
+    "side": "nyasamabuilding:block/plazza_floor",
+    "bottom": "nyasamabuilding:block/plazza_floor",
+    "face": "nyasamabuilding:block/plazza_floor"
+  }
+}

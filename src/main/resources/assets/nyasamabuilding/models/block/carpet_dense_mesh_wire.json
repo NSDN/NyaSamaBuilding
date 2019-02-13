@@ -1,0 +1,7 @@
+{
+    "parent": "block/carpet",
+    "textures": {
+        "particle": "nyasamabuilding:block/dense_mesh_wire",
+        "wool": "nyasamabuilding:block/dense_mesh_wire"
+    }
+}

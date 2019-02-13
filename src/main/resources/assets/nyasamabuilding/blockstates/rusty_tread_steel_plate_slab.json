@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "nyasamabuilding:half_slab_rusty_tread_steel_plate" },
+        "half=top": { "model": "nyasamabuilding:upper_slab_rusty_tread_steel_plate" }
+    }
+}

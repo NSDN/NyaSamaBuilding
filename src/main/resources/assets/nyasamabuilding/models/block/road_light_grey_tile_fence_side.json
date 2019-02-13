@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_side",
+    "textures": {
+        "texture": "nyasamabuilding:block/road_light_grey_tile"
+    }
+}

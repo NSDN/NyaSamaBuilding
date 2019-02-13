@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_side_alt",
+    "textures": {
+        "edge": "nyasamabuilding:block/coarse_concrete_floor",
+        "pane": "nyasamabuilding:block/coarse_concrete_floor"
+    }
+}

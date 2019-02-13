@@ -1,0 +1,9 @@
+{
+  "parent": "nyasamabuilding:base/edge_tall",
+  "textures": {
+    "top": "nyasamabuilding:block/zry_tvbg_wall",
+    "side": "nyasamabuilding:block/zry_tvbg_wall",
+    "bottom": "nyasamabuilding:block/zry_tvbg_wall",
+    "face": "nyasamabuilding:block/zry_tvbg_wall"
+  }
+}

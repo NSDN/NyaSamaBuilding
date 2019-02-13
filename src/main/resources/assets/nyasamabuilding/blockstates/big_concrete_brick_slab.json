@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "nyasamabuilding:half_slab_big_concrete_brick" },
+        "half=top": { "model": "nyasamabuilding:upper_slab_big_concrete_brick" }
+    }
+}

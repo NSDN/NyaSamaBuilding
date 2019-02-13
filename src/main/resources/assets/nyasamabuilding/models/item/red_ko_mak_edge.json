@@ -1,0 +1,9 @@
+{
+  "parent": "nyasamabuilding:base/edge_tall",
+  "textures": {
+    "top": "nyasamabuilding:block/red_ko_mak",
+    "side": "nyasamabuilding:block/red_ko_mak",
+    "bottom": "nyasamabuilding:block/red_ko_mak",
+    "face": "nyasamabuilding:block/red_ko_mak"
+  }
+}

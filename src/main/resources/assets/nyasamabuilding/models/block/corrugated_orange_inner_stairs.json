@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "nyasamabuilding:block/corrugated_orange",
+        "top": "nyasamabuilding:block/corrugated_orange",
+        "side": "nyasamabuilding:block/corrugated_orange"
+    }
+}

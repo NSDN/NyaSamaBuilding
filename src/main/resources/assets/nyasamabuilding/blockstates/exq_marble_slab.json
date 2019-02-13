@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "nyasamabuilding:half_slab_exq_marble" },
+        "half=top": { "model": "nyasamabuilding:upper_slab_exq_marble" }
+    }
+}

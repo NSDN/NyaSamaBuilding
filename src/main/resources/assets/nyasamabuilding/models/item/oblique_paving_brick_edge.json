@@ -1,0 +1,9 @@
+{
+  "parent": "nyasamabuilding:base/edge_tall",
+  "textures": {
+    "top": "nyasamabuilding:block/oblique_paving_brick",
+    "side": "nyasamabuilding:block/oblique_paving_brick",
+    "bottom": "nyasamabuilding:block/oblique_paving_brick",
+    "face": "nyasamabuilding:block/oblique_paving_brick"
+  }
+}

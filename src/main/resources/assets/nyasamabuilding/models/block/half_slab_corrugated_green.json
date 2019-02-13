@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "nyasamabuilding:block/corrugated_green",
+        "top": "nyasamabuilding:block/corrugated_green",
+        "side": "nyasamabuilding:block/corrugated_green"
+    }
+}

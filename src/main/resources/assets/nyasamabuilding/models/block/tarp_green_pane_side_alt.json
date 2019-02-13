@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_side_alt",
+    "textures": {
+        "edge": "nyasamabuilding:block/tarp_green",
+        "pane": "nyasamabuilding:block/tarp_green"
+    }
+}

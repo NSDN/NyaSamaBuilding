@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/outer_vslab",
+    "textures": {
+        "bottom": "nyasamabuilding:block/latex_painted_wall",
+        "top": "nyasamabuilding:block/latex_painted_wall",
+        "side": "nyasamabuilding:block/latex_painted_wall"
+    }
+}

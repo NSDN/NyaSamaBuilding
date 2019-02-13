@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/inner_strip",
+    "textures": {
+        "bottom": "nyasamabuilding:block/concrete_rail_tunnel_up",
+        "top": "nyasamabuilding:block/concrete_rail_tunnel_up",
+        "side": "nyasamabuilding:block/concrete_rail_tunnel_up"
+    }
+}

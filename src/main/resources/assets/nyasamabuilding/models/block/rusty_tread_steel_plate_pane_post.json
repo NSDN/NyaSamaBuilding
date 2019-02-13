@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_post",
+    "textures": {
+        "edge": "nyasamabuilding:block/rusty_tread_steel_plate",
+        "pane": "nyasamabuilding:block/rusty_tread_steel_plate"
+    }
+}

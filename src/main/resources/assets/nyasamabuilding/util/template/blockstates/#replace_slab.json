@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "nyasamabuilding:block/half_slab_#replace" },
+        "half=top": { "model": "nyasamabuilding:block/upper_slab_#replace" }
+    }
+}

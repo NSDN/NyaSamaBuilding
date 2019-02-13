@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_side",
+    "textures": {
+        "edge": "nyasamabuilding:block/road_dust_yellow_tile",
+        "pane": "nyasamabuilding:block/road_dust_yellow_tile"
+    }
+}

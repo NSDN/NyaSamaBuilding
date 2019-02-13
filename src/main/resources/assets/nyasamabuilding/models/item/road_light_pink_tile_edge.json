@@ -1,0 +1,9 @@
+{
+  "parent": "nyasamabuilding:base/edge_tall",
+  "textures": {
+    "top": "nyasamabuilding:block/road_light_pink_tile",
+    "side": "nyasamabuilding:block/road_light_pink_tile",
+    "bottom": "nyasamabuilding:block/road_light_pink_tile",
+    "face": "nyasamabuilding:block/road_light_pink_tile"
+  }
+}
