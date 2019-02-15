@@ -7,6 +7,9 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockStairs;
 import net.minecraft.block.state.BlockFaceShape;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemBlock;
+import net.minecraft.util.EnumHand;
 import net.minecraft.util.text.translation.I18n;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.EnumFacing;
@@ -187,6 +190,20 @@ public class BlockVSlab extends BlockStairs {
         }
 
         return raytraceresult1;
+    }
+
+    @Override
+    public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ)  {
+        if (!world.isRemote) {
+            if (player.getHeldItemMainhand().getItem() == ItemBlock.getItemFromBlock(this)) {
+                if ((facing.getAxis() == EnumFacing.Axis.X && hitX == 0.5) || (facing.getAxis() == EnumFacing.Axis.Z && hitZ == 0.5)) {
+                    world.setBlockState(pos, baseBlockState);
+                    world.markBlockRangeForRenderUpdate(pos, pos);
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     @Override

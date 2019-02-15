@@ -68,11 +68,7 @@ public class BlockSlab extends net.minecraft.block.BlockSlab {
     public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ)  {
         if (!world.isRemote) {
             if (player.getHeldItemMainhand().getItem() == ItemBlock.getItemFromBlock(this)) {
-                if (
-                    facing.getAxis() == EnumFacing.Axis.Y ||
-                    (state.getValue(HALF) == EnumBlockHalf.TOP && hitY < 0.5) ||
-                    (state.getValue(HALF) == EnumBlockHalf.BOTTOM && hitY > 0.5)
-                ) {
+                if (hitY == 0.5) {
                     world.setBlockState(pos, baseBlockState);
                     world.markBlockRangeForRenderUpdate(pos, pos);
                     return true;
