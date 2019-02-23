@@ -1,6 +1,7 @@
 package club.nsdn.nyasamabuilding.event;
 
 import club.nsdn.nyasamabuilding.block.BlockLoader;
+import club.nsdn.nyasamabuilding.item.ItemLoader;
 import net.minecraftforge.common.MinecraftForge;
 
 /**
@@ -10,6 +11,7 @@ public class EventRegister {
 
     public static void registerCommon() {
         MinecraftForge.EVENT_BUS.register(BlockLoader.instance());
+        MinecraftForge.EVENT_BUS.register(ItemLoader.instance());
 
         MinecraftForge.EVENT_BUS.register(ToolHandler.instance());
 

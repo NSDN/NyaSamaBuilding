@@ -3,6 +3,8 @@ itemGroup.tabNyaSamaBuilding=喵玉土木
 tile.NSBSign.name=喵玉土木
 tile.NSBLogo.name=喵玉土木标志
 
+item.Probe.name=探针
+
 trans.Carpet.name=地板
 trans.Edge.name=边缘
 trans.Fence.name=栅栏
