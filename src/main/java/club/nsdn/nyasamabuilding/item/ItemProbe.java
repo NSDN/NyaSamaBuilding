@@ -2,14 +2,11 @@ package club.nsdn.nyasamabuilding.item;
 
 import club.nsdn.nyasamabuilding.NyaSamaBuilding;
 import club.nsdn.nyasamabuilding.creativetab.CreativeTabLoader;
-import club.nsdn.nyasamatelecom.api.tileentity.TileEntityBase;
-import club.nsdn.nyasamatelecom.api.tool.ToolBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumFacing;
