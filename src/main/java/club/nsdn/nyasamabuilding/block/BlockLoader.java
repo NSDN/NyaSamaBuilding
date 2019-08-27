@@ -85,6 +85,7 @@ public class BlockLoader {
             blocks.add(block);
             blocks.add(new BlockCarpet(block.getDefaultState(), info[NAME] + "Carpet", info[ID] + "_" + "carpet"));
             blocks.add(new BlockEdge(block.getDefaultState(), info[NAME] + "Edge", info[ID] + "_" + "edge"));
+            blocks.add(new BlockRailing(block.getDefaultState(), info[NAME] + "Railing", info[ID] + "_" + "railing"));
             blocks.add(new BlockFence(block.getDefaultState(), info[NAME] + "Fence", info[ID] + "_" + "fence"));
             blocks.add(new BlockFenceGate(block.getDefaultState(), info[NAME] + "FenceGate", info[ID] + "_" + "fence_gate"));
             blocks.add(new BlockPane(block.getDefaultState(), info[NAME] + "Pane", info[ID] + "_" + "pane"));

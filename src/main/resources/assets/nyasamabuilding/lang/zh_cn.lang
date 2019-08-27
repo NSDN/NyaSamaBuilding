@@ -7,6 +7,7 @@ item.Probe.name=探针
 
 trans.Carpet.name=地板
 trans.Edge.name=边缘
+trans.Railing.name=栏杆
 trans.Fence.name=栅栏
 trans.FenceGate.name=栅栏门
 trans.Pane.name=板材
