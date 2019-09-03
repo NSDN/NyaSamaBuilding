@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/outer_vslab",
+    "textures": {
+        "bottom": "nyasamabuilding:block/tread_steel_light_grey",
+        "top": "nyasamabuilding:block/tread_steel_light_grey",
+        "side": "nyasamabuilding:block/tread_steel_light_grey"
+    }
+}

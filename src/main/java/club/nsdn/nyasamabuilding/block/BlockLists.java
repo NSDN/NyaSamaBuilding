@@ -100,7 +100,24 @@ public class BlockLists {
         { "SandBrick", "sand_brick", TYPE_ROCK },
         { "WhiteBrickWall", "white_brick_wall", TYPE_ROCK },
         { "ZryBathroomCellTile", "zry_bathroom_cell_tile", TYPE_GLASS },
-        { "ZryTVBgWall", "zry_tvbg_wall", TYPE_ROCK }
+        { "ZryTVBgWall", "zry_tvbg_wall", TYPE_ROCK },
+
+        { "TreadSteelBlack", "tread_steel_black", TYPE_IRON },
+        { "TreadSteelBlue", "tread_steel_blue", TYPE_IRON },
+        { "TreadSteelBrown", "tread_steel_brown", TYPE_IRON },
+        { "TreadSteelCyan", "tread_steel_cyan", TYPE_IRON },
+        { "TreadSteelGreen", "tread_steel_green", TYPE_IRON },
+        { "TreadSteelGrey", "tread_steel_grey", TYPE_IRON },
+        { "TreadSteelLightBlue", "tread_steel_light_blue", TYPE_IRON },
+        { "TreadSteelLightGrey", "tread_steel_light_grey", TYPE_IRON },
+        { "TreadSteelLime", "tread_steel_lime", TYPE_IRON },
+        { "TreadSteelMagenta", "tread_steel_magenta", TYPE_IRON },
+        { "TreadSteelOrange", "tread_steel_orange", TYPE_IRON },
+        { "TreadSteelPink", "tread_steel_pink", TYPE_IRON },
+        { "TreadSteelPurple", "tread_steel_purple", TYPE_IRON },
+        { "TreadSteelRed", "tread_steel_red", TYPE_IRON },
+        { "TreadSteelWhite", "tread_steel_white", TYPE_IRON },
+        { "TreadSteelYellow", "tread_steel_yellow", TYPE_IRON },
     };
 
     public static final String[][] SOFT = new String[][] {

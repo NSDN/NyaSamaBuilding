@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_inventory",
+    "textures": {
+        "wall": "nyasamabuilding:block/tread_steel_light_blue"
+    }
+}

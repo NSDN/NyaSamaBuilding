@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_side",
+    "textures": {
+        "texture": "nyasamabuilding:block/tread_steel_purple"
+    }
+}

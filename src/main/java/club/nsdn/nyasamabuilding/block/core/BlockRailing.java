@@ -125,7 +125,10 @@ public class BlockRailing extends net.minecraft.block.BlockFence {
     @Nonnull
     public IBlockState getActualState(IBlockState state, IBlockAccess world, BlockPos pos) {
         return super.getActualState(state, world, pos)
-                .withProperty(UP, world.isSideSolid(pos.up(), EnumFacing.DOWN, true))
+                .withProperty(UP,
+                        world.isSideSolid(pos.down(), EnumFacing.UP, true) ||
+                           world.getBlockState(pos.down()).getBlock() instanceof net.minecraft.block.BlockFence
+                )
                 .withProperty(DOWN,
                         world.isSideSolid(pos.down(), EnumFacing.UP, true) ||
                            world.getBlockState(pos.down()).getBlock() instanceof net.minecraft.block.BlockFence
