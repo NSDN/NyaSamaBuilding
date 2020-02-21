@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_post",
+    "textures": {
+        "edge": "nyasamabuilding:block/dark_latex_painted_wall",
+        "pane": "nyasamabuilding:block/dark_latex_painted_wall"
+    }
+}

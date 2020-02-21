@@ -1,0 +1,9 @@
+{
+  "parent": "nyasamabuilding:base/edge_tall",
+  "textures": {
+    "top": "nyasamabuilding:block/dark_latex_painted_wall",
+    "side": "nyasamabuilding:block/dark_latex_painted_wall",
+    "bottom": "nyasamabuilding:block/dark_latex_painted_wall",
+    "face": "nyasamabuilding:block/dark_latex_painted_wall"
+  }
+}

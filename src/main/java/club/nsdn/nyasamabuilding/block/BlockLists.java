@@ -65,6 +65,7 @@ public class BlockLists {
         { "ExqMarble", "exq_marble", TYPE_ROCK },
         { "GreyBrick", "grey_brick", TYPE_ROCK },
         { "LatexPaintedWall", "latex_painted_wall", TYPE_ROCK },
+        { "DarkLatexPaintedWall", "dark_latex_painted_wall", TYPE_ROCK },
         { "LightGreyCellTile", "light_grey_cell_tile", TYPE_GLASS },
         { "Marble", "marble", TYPE_ROCK },
         { "MineralWoolCellingPlate", "mineral_wool_celling_plate", TYPE_ROCK },
