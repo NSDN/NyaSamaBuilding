@@ -1,9 +1,11 @@
 package club.nsdn.nyasamabuilding.block;
 
 import club.nsdn.nyasamabuilding.NyaSamaBuilding;
+import club.nsdn.nyasamabuilding.block.core.BlockCarpet;
 import club.nsdn.nyasamabuilding.block.core.BlockCube;
 import club.nsdn.nyasamabuilding.block.core.BlockFence;
 import club.nsdn.nyasamabuilding.block.core.BlockPane;
+import club.nsdn.nyasamabuilding.block.core.BlockSlab;
 import club.nsdn.nyasamabuilding.block.core.BlockStairs;
 import club.nsdn.nyasamabuilding.block.core.BlockWall;
 import com.mojang.serialization.MapCodec;
@@ -96,11 +98,16 @@ public final class BuildingBlocks {
                 () -> new BlockWall(base.get(), BlockLists.getProperties(type)));
         registerWithItem(id + "_pane",
                 () -> new BlockPane(base.get(), BlockLists.getProperties(type)));
+        registerWithItem(id + "_slab",
+                () -> new BlockSlab(base.get(), baseState, BlockLists.getProperties(type)));
+        registerWithItem(id + "_carpet",
+                () -> new BlockCarpet(base.get(), BlockLists.getProperties(type)));
     }
 
-    /** SOFT families: material-and-sound based pane, no base cube. */
+    /** SOFT families: material-and-sound based pane and carpet, no base cube. */
     public static void softPane(String id, String type) {
         registerWithItem(id + "_pane", () -> new BlockPane(BlockLists.getProperties(type)));
+        registerWithItem(id + "_carpet", () -> new BlockCarpet(BlockLists.getProperties(type)));
     }
 
     private static <T extends Block> DeferredBlock<T> registerWithItem(String name, java.util.function.Supplier<T> supplier) {
