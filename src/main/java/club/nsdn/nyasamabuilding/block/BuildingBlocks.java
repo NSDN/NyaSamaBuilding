@@ -5,11 +5,13 @@ import club.nsdn.nyasamabuilding.block.core.BlockCarpet;
 import club.nsdn.nyasamabuilding.block.core.BlockCube;
 import club.nsdn.nyasamabuilding.block.core.BlockEdge;
 import club.nsdn.nyasamabuilding.block.core.BlockFence;
+import club.nsdn.nyasamabuilding.block.core.BlockFenceGate;
 import club.nsdn.nyasamabuilding.block.core.BlockPane;
 import club.nsdn.nyasamabuilding.block.core.BlockRailing;
 import club.nsdn.nyasamabuilding.block.core.BlockRoof;
 import club.nsdn.nyasamabuilding.block.core.BlockSlab;
 import club.nsdn.nyasamabuilding.block.core.BlockStairs;
+import club.nsdn.nyasamabuilding.block.core.BlockVStrip;
 import club.nsdn.nyasamabuilding.block.core.BlockWall;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -60,6 +62,7 @@ public final class BuildingBlocks {
     static {
         BLOCK_TYPES.register("cube", () -> BlockCube.CODEC);
         BLOCK_TYPES.register("edge", () -> BlockEdge.CODEC);
+        BLOCK_TYPES.register("vstrip", () -> BlockVStrip.CODEC);
 
         // HARD families: the full cube first, then the derived shapes that borrow from it.
         // The variant suppliers call holder.get() lazily; NeoForge runs a DeferredRegister's
@@ -112,6 +115,11 @@ public final class BuildingBlocks {
                 () -> new BlockRoof(base.get(), BlockLists.getProperties(type)));
         registerWithItem(id + "_edge",
                 () -> new BlockEdge(base.get(), BlockLists.getProperties(type)));
+        registerWithItem(id + "_vstrip",
+                () -> new BlockVStrip(base.get(), BlockLists.getProperties(type)));
+        registerWithItem(id + "_fence_gate",
+                () -> new BlockFenceGate(base.get(), BlockLists.getProperties(type),
+                        BlockFenceGate.openSoundFor(type), BlockFenceGate.closeSoundFor(type)));
     }
 
     /** SOFT families: material-and-sound based pane and carpet, no base cube. */
