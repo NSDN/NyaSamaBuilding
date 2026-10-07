@@ -2,10 +2,14 @@ package club.nsdn.nyasamabuilding.block;
 
 import club.nsdn.nyasamabuilding.NyaSamaBuilding;
 import club.nsdn.nyasamabuilding.block.core.BlockCube;
+import club.nsdn.nyasamabuilding.block.core.BlockFence;
+import club.nsdn.nyasamabuilding.block.core.BlockPane;
+import club.nsdn.nyasamabuilding.block.core.BlockStairs;
+import club.nsdn.nyasamabuilding.block.core.BlockWall;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -51,11 +55,20 @@ public final class BuildingBlocks {
     static {
         BLOCK_TYPES.register("cube", () -> BlockCube.CODEC);
 
-        // HARD families: the full cube first; the derived shapes attach to it later.
+        // HARD families: the full cube first, then the derived shapes that borrow from it.
+        // The variant suppliers call holder.get() lazily; NeoForge runs a DeferredRegister's
+        // suppliers in registration order, so the base cube is already registered by then.
         for (String[] info : BlockLists.HARD) {
-            cube(info[BlockLists.ID], info[BlockLists.TYPE]);
+            String id = info[BlockLists.ID];
+            String type = info[BlockLists.TYPE];
+            DeferredBlock<BlockCube> base = cube(id, type);
+            variants(base, base.get().defaultBlockState(), id, type);
         }
-        // SOFT families are carpet/pane only -- no full cube in 1.12.2 either.
+
+        // SOFT families have no full cube in 1.12.2 either: a pane and (later) a carpet each.
+        for (String[] info : BlockLists.SOFT) {
+            softPane(info[BlockLists.ID], info[BlockLists.TYPE]);
+        }
     }
 
     /** Registers one full cube plus its {@code BlockItem}. */
@@ -63,6 +76,35 @@ public final class BuildingBlocks {
         DeferredBlock<BlockCube> block = BLOCKS.register(id + "_block", () -> new BlockCube(BlockLists.getProperties(type)));
         // The 1.12.2 code built an ItemBlock per registered Block; registerSimpleBlockItem is the
         // modern equivalent and keeps the item name identical to the block name.
+        ITEMS.registerSimpleBlockItem(block);
+        return block;
+    }
+
+    /**
+     * The shapes derived from a HARD family's full cube.
+     *
+     * <p>1.12.2 also derived carpet, edge, railing, roof, fence gate, slab, strip, vslab and vstrip
+     * from each family; those classes are still being ported, so only the ones with a direct vanilla
+     * counterpart are registered here.</p>
+     */
+    public static void variants(DeferredBlock<BlockCube> base, BlockState baseState, String id, String type) {
+        registerWithItem(id + "_stairs",
+                () -> new BlockStairs(base.get(), baseState, BlockLists.getProperties(type)));
+        registerWithItem(id + "_fence",
+                () -> new BlockFence(base.get(), BlockLists.getProperties(type)));
+        registerWithItem(id + "_wall",
+                () -> new BlockWall(base.get(), BlockLists.getProperties(type)));
+        registerWithItem(id + "_pane",
+                () -> new BlockPane(base.get(), BlockLists.getProperties(type)));
+    }
+
+    /** SOFT families: material-and-sound based pane, no base cube. */
+    public static void softPane(String id, String type) {
+        registerWithItem(id + "_pane", () -> new BlockPane(BlockLists.getProperties(type)));
+    }
+
+    private static <T extends Block> DeferredBlock<T> registerWithItem(String name, java.util.function.Supplier<T> supplier) {
+        DeferredBlock<T> block = BLOCKS.register(name, supplier);
         ITEMS.registerSimpleBlockItem(block);
         return block;
     }
