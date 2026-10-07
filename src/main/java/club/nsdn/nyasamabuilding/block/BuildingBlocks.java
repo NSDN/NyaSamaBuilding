@@ -11,7 +11,9 @@ import club.nsdn.nyasamabuilding.block.core.BlockRailing;
 import club.nsdn.nyasamabuilding.block.core.BlockRoof;
 import club.nsdn.nyasamabuilding.block.core.BlockSlab;
 import club.nsdn.nyasamabuilding.block.core.BlockStairs;
+import club.nsdn.nyasamabuilding.block.core.BlockStrip;
 import club.nsdn.nyasamabuilding.block.core.BlockVStrip;
+import club.nsdn.nyasamabuilding.block.core.BlockVSlab;
 import club.nsdn.nyasamabuilding.block.core.BlockWall;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -120,6 +122,10 @@ public final class BuildingBlocks {
         registerWithItem(id + "_fence_gate",
                 () -> new BlockFenceGate(base.get(), BlockLists.getProperties(type),
                         BlockFenceGate.openSoundFor(type), BlockFenceGate.closeSoundFor(type)));
+        registerWithItem(id + "_strip",
+                () -> new BlockStrip(base.get(), baseState, BlockLists.getProperties(type)));
+        registerWithItem(id + "_vslab",
+                () -> new BlockVSlab(base.get(), baseState, BlockLists.getProperties(type)));
     }
 
     /** SOFT families: material-and-sound based pane and carpet, no base cube. */
