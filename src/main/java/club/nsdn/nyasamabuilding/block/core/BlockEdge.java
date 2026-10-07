@@ -177,6 +177,27 @@ public class BlockEdge extends Block {
         return state.rotate(mirror.getRotation(state.getValue(FACING)));
     }
 
+    /**
+     * Ported from the 1.12.2 {@code onBlockActivated}: right-clicking an edge's upper half while
+     * holding the same item grows it from TOP/BOTTOM into TALL.
+     */
+    @Override
+    protected net.minecraft.world.ItemInteractionResult useItemOn(net.minecraft.world.item.ItemStack stack,
+                                                                 BlockState state, net.minecraft.world.level.Level level,
+                                                                 BlockPos pos, net.minecraft.world.entity.player.Player player,
+                                                                 net.minecraft.world.InteractionHand hand,
+                                                                 net.minecraft.world.phys.BlockHitResult hit) {
+        if (!level.isClientSide && stack.is(asItem())) {
+            double hitY = hit.getLocation().y - pos.getY();
+            if (hit.getDirection().getAxis() == Direction.Axis.Y && hitY >= 0.5D
+                    && state.getValue(HALF) != Half.TALL) {
+                level.setBlockAndUpdate(pos, state.setValue(HALF, Half.TALL));
+                return net.minecraft.world.ItemInteractionResult.SUCCESS;
+            }
+        }
+        return super.useItemOn(stack, state, level, pos, player, hand, hit);
+    }
+
     @Override
     public MutableComponent getName() {
         return Component.empty()

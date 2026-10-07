@@ -48,9 +48,36 @@ public class BlockVSlab extends StairBlock {
 
     private final Block baseBlock;
 
+    private final BlockState baseState;
+
     public BlockVSlab(Block baseBlock, BlockState baseState, BlockBehaviour.Properties properties) {
         super(baseState, properties);
         this.baseBlock = baseBlock;
+        this.baseState = baseState;
+    }
+
+    /**
+     * Ported from the 1.12.2 {@code onBlockActivated}: clicking the exact middle line (x or z = 0.5)
+     * with the same item in hand replaces the vertical slab with its full base block.
+     */
+    @Override
+    protected net.minecraft.world.ItemInteractionResult useItemOn(net.minecraft.world.item.ItemStack stack,
+                                                                 BlockState state, net.minecraft.world.level.Level level,
+                                                                 BlockPos pos, net.minecraft.world.entity.player.Player player,
+                                                                 net.minecraft.world.InteractionHand hand,
+                                                                 net.minecraft.world.phys.BlockHitResult hit) {
+        if (!level.isClientSide && stack.is(asItem())) {
+            double localX = hit.getLocation().x - pos.getX();
+            double localZ = hit.getLocation().z - pos.getZ();
+            net.minecraft.core.Direction.Axis axis = hit.getDirection().getAxis();
+            boolean onLine = (axis == net.minecraft.core.Direction.Axis.X && localX == 0.5D)
+                    || (axis == net.minecraft.core.Direction.Axis.Z && localZ == 0.5D);
+            if (onLine) {
+                level.setBlockAndUpdate(pos, baseState);
+                return net.minecraft.world.ItemInteractionResult.SUCCESS;
+            }
+        }
+        return super.useItemOn(stack, state, level, pos, player, hand, hit);
     }
 
     /** The thin piece at the height the 1.12.2 code selected, before the vertical stretch. */
