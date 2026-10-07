@@ -3,6 +3,7 @@ package club.nsdn.nyasamabuilding.block;
 import club.nsdn.nyasamabuilding.NyaSamaBuilding;
 import club.nsdn.nyasamabuilding.block.core.BlockCarpet;
 import club.nsdn.nyasamabuilding.block.core.BlockCube;
+import club.nsdn.nyasamabuilding.block.core.BlockEdge;
 import club.nsdn.nyasamabuilding.block.core.BlockFence;
 import club.nsdn.nyasamabuilding.block.core.BlockPane;
 import club.nsdn.nyasamabuilding.block.core.BlockRailing;
@@ -58,6 +59,7 @@ public final class BuildingBlocks {
 
     static {
         BLOCK_TYPES.register("cube", () -> BlockCube.CODEC);
+        BLOCK_TYPES.register("edge", () -> BlockEdge.CODEC);
 
         // HARD families: the full cube first, then the derived shapes that borrow from it.
         // The variant suppliers call holder.get() lazily; NeoForge runs a DeferredRegister's
@@ -108,6 +110,8 @@ public final class BuildingBlocks {
                 () -> new BlockRailing(base.get(), BlockLists.getProperties(type)));
         registerWithItem(id + "_roof",
                 () -> new BlockRoof(base.get(), BlockLists.getProperties(type)));
+        registerWithItem(id + "_edge",
+                () -> new BlockEdge(base.get(), BlockLists.getProperties(type)));
     }
 
     /** SOFT families: material-and-sound based pane and carpet, no base cube. */
