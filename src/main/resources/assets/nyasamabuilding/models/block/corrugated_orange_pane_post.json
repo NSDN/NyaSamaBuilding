@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_post",
+    "textures": {
+        "edge": "nyasamabuilding:block/corrugated_orange",
+        "pane": "nyasamabuilding:block/corrugated_orange"
+    }
+}

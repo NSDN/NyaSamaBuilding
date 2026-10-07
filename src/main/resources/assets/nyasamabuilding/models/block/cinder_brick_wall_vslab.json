@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/vslab",
+    "textures": {
+        "bottom": "nyasamabuilding:block/cinder_brick_wall",
+        "top": "nyasamabuilding:block/cinder_brick_wall",
+        "side": "nyasamabuilding:block/cinder_brick_wall"
+    }
+}

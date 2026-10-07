@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_inventory",
+    "textures": {
+        "texture": "nyasamabuilding:block/cinder_brick_wall"
+    }
+}

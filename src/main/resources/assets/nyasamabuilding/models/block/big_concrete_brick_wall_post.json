@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_post",
+    "textures": {
+        "wall": "nyasamabuilding:block/big_concrete_brick"
+    }
+}

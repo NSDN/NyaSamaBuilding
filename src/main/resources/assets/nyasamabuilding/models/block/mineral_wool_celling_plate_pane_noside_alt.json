@@ -1,0 +1,6 @@
+{
+    "parent": "block/pane_noside_alt",
+    "textures": {
+        "pane": "nyasamabuilding:block/mineral_wool_celling_plate"
+    }
+}

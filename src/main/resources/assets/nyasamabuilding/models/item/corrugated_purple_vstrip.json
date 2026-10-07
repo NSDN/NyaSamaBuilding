@@ -1,0 +1,8 @@
+{
+  "parent": "nyasamabuilding:base/vstrip",
+  "textures": {
+    "top": "nyasamabuilding:block/corrugated_purple",
+    "side": "nyasamabuilding:block/corrugated_purple",
+    "bottom": "nyasamabuilding:block/corrugated_purple"
+  }
+}

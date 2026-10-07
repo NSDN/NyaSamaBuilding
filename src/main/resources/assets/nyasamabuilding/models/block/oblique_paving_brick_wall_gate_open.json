@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_gate_open",
+    "textures": {
+        "texture": "nyasamabuilding:block/oblique_paving_brick"
+    }
+}

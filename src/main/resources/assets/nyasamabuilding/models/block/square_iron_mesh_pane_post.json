@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_post",
+    "textures": {
+        "edge": "nyasamabuilding:block/square_iron_mesh",
+        "pane": "nyasamabuilding:block/square_iron_mesh"
+    }
+}

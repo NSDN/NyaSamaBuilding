@@ -1,0 +1,7 @@
+{
+    "parent": "block/carpet",
+    "textures": {
+        "particle": "nyasamabuilding:block/old_brick",
+        "wool": "nyasamabuilding:block/old_brick"
+    }
+}

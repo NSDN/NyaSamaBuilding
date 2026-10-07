@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_side_alt",
+    "textures": {
+        "edge": "nyasamabuilding:block/red_ko_mak",
+        "pane": "nyasamabuilding:block/red_ko_mak"
+    }
+}

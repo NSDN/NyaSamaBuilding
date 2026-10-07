@@ -1,0 +1,51 @@
+{
+  "variants": {
+    "facing=north": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/red_ko_mak",
+          "side": "nyasamabuilding:block/red_ko_mak",
+          "bottom": "nyasamabuilding:block/red_ko_mak"
+        },
+        "model": "nyasamabuilding:base/vstrip",
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=south": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/red_ko_mak",
+          "side": "nyasamabuilding:block/red_ko_mak",
+          "bottom": "nyasamabuilding:block/red_ko_mak"
+        },
+        "model": "nyasamabuilding:base/vstrip",
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=west": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/red_ko_mak",
+          "side": "nyasamabuilding:block/red_ko_mak",
+          "bottom": "nyasamabuilding:block/red_ko_mak"
+        },
+        "model": "nyasamabuilding:base/vstrip",
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=east": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/red_ko_mak",
+          "side": "nyasamabuilding:block/red_ko_mak",
+          "bottom": "nyasamabuilding:block/red_ko_mak"
+        },
+        "model": "nyasamabuilding:base/vstrip",
+        "uvlock": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/outer_strip",
+    "textures": {
+        "bottom": "nyasamabuilding:block/red_ko_mak",
+        "top": "nyasamabuilding:block/red_ko_mak",
+        "side": "nyasamabuilding:block/red_ko_mak"
+    }
+}

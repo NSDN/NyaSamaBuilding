@@ -1,0 +1,9 @@
+{
+  "parent": "nyasamabuilding:base/edge_tall",
+  "textures": {
+    "top": "nyasamabuilding:block/tread_steel_orange",
+    "side": "nyasamabuilding:block/tread_steel_orange",
+    "bottom": "nyasamabuilding:block/tread_steel_orange",
+    "face": "nyasamabuilding:block/tread_steel_orange"
+  }
+}

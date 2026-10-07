@@ -1,0 +1,51 @@
+{
+  "variants": {
+    "facing=north": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/tread_steel_magenta",
+          "side": "nyasamabuilding:block/tread_steel_magenta",
+          "bottom": "nyasamabuilding:block/tread_steel_magenta"
+        },
+        "model": "nyasamabuilding:base/vstrip",
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=south": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/tread_steel_magenta",
+          "side": "nyasamabuilding:block/tread_steel_magenta",
+          "bottom": "nyasamabuilding:block/tread_steel_magenta"
+        },
+        "model": "nyasamabuilding:base/vstrip",
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=west": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/tread_steel_magenta",
+          "side": "nyasamabuilding:block/tread_steel_magenta",
+          "bottom": "nyasamabuilding:block/tread_steel_magenta"
+        },
+        "model": "nyasamabuilding:base/vstrip",
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=east": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/tread_steel_magenta",
+          "side": "nyasamabuilding:block/tread_steel_magenta",
+          "bottom": "nyasamabuilding:block/tread_steel_magenta"
+        },
+        "model": "nyasamabuilding:base/vstrip",
+        "uvlock": true
+      }
+    ]
+  }
+}

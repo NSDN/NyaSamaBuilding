@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_side_alt",
+    "textures": {
+        "edge": "nyasamabuilding:block/exq_marble",
+        "pane": "nyasamabuilding:block/exq_marble"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/outer_strip",
+    "textures": {
+        "bottom": "nyasamabuilding:block/zry_tvbg_wall",
+        "top": "nyasamabuilding:block/zry_tvbg_wall",
+        "side": "nyasamabuilding:block/zry_tvbg_wall"
+    }
+}

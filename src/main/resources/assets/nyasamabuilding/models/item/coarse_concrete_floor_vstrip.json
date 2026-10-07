@@ -1,0 +1,8 @@
+{
+  "parent": "nyasamabuilding:base/vstrip",
+  "textures": {
+    "top": "nyasamabuilding:block/coarse_concrete_floor",
+    "side": "nyasamabuilding:block/coarse_concrete_floor",
+    "bottom": "nyasamabuilding:block/coarse_concrete_floor"
+  }
+}

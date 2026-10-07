@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "nyasamabuilding:block/concrete_rail_tunnel_down"
+    }
+}

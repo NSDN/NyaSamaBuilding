@@ -1,0 +1,8 @@
+{
+  "parent": "nyasamabuilding:base/vstrip",
+  "textures": {
+    "top": "nyasamabuilding:block/old_brick",
+    "side": "nyasamabuilding:block/old_brick",
+    "bottom": "nyasamabuilding:block/old_brick"
+  }
+}

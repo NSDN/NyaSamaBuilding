@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_inventory",
+    "textures": {
+        "texture": "nyasamabuilding:block/dark_grey_cell_tile"
+    }
+}

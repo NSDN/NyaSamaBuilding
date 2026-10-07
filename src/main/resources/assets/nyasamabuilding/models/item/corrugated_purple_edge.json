@@ -1,0 +1,9 @@
+{
+  "parent": "nyasamabuilding:base/edge_tall",
+  "textures": {
+    "top": "nyasamabuilding:block/corrugated_purple",
+    "side": "nyasamabuilding:block/corrugated_purple",
+    "bottom": "nyasamabuilding:block/corrugated_purple",
+    "face": "nyasamabuilding:block/corrugated_purple"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_post",
+    "textures": {
+        "texture": "nyasamabuilding:block/road_dark_yellow_tile"
+    }
+}

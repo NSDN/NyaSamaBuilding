@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/inner_strip",
+    "textures": {
+        "bottom": "nyasamabuilding:block/tread_steel_orange",
+        "top": "nyasamabuilding:block/tread_steel_orange",
+        "side": "nyasamabuilding:block/tread_steel_orange"
+    }
+}

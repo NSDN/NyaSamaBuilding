@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_side",
+    "textures": {
+        "wall": "nyasamabuilding:block/anti_static_floor"
+    }
+}

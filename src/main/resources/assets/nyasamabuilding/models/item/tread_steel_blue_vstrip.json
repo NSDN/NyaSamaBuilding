@@ -1,0 +1,8 @@
+{
+  "parent": "nyasamabuilding:base/vstrip",
+  "textures": {
+    "top": "nyasamabuilding:block/tread_steel_blue",
+    "side": "nyasamabuilding:block/tread_steel_blue",
+    "bottom": "nyasamabuilding:block/tread_steel_blue"
+  }
+}

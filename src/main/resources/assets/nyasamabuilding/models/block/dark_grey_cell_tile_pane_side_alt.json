@@ -1,0 +1,7 @@
+{
+    "parent": "block/pane_side_alt",
+    "textures": {
+        "edge": "nyasamabuilding:block/dark_grey_cell_tile",
+        "pane": "nyasamabuilding:block/dark_grey_cell_tile"
+    }
+}

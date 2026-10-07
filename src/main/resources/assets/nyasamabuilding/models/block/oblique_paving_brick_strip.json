@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/strip",
+    "textures": {
+        "bottom": "nyasamabuilding:block/oblique_paving_brick",
+        "top": "nyasamabuilding:block/oblique_paving_brick",
+        "side": "nyasamabuilding:block/oblique_paving_brick"
+    }
+}

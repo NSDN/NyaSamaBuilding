@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_post",
+    "textures": {
+        "wall": "nyasamabuilding:block/concrete_rail_tunnel_down"
+    }
+}

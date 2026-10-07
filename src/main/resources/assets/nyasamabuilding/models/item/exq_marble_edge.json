@@ -1,0 +1,9 @@
+{
+  "parent": "nyasamabuilding:base/edge_tall",
+  "textures": {
+    "top": "nyasamabuilding:block/exq_marble",
+    "side": "nyasamabuilding:block/exq_marble",
+    "bottom": "nyasamabuilding:block/exq_marble",
+    "face": "nyasamabuilding:block/exq_marble"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_inventory",
+    "textures": {
+        "wall": "nyasamabuilding:block/coarse_concrete_floor"
+    }
+}

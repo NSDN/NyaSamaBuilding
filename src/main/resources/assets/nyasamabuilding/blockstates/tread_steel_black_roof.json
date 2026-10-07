@@ -1,0 +1,947 @@
+{
+  "variants": {
+    "up=true,down=true,north=true,south=true,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=true,south=true,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=true,south=true,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=true,south=true,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "south": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 180,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=true,south=false,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=true,south=false,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=true,south=false,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=true,south=false,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "north": {
+            "model": "nyasamabuilding:base/railing_side",
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=false,south=true,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=false,south=true,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=false,south=true,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=false,south=true,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "south": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 180,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=false,south=false,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=false,south=false,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=false,south=false,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=true,north=false,south=false,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "down": {
+            "model": "nyasamabuilding:base/railing_post_bottom"
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=true,south=true,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=true,south=true,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=true,south=true,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=true,south=true,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "south": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 180,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=true,south=false,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=true,south=false,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=true,south=false,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=true,south=false,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "north": {
+            "model": "nyasamabuilding:base/railing_side",
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=false,south=true,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=false,south=true,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=false,south=true,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=false,south=true,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "south": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 180,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=false,south=false,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=false,south=false,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=false,south=false,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=true,down=false,north=false,south=false,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "up": {
+            "model": "nyasamabuilding:base/railing_post_roof"
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=true,south=true,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=true,south=true,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=true,south=true,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=true,south=true,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "south": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 180,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=true,south=false,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=true,south=false,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=true,south=false,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=true,south=false,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "north": {
+            "model": "nyasamabuilding:base/railing_side",
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=false,south=true,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=false,south=true,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=false,south=true,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=false,south=true,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "south": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 180,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=false,south=false,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=false,south=false,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=false,south=false,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=true,north=false,south=false,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "down": {
+            "model": "nyasamabuilding:base/railing_post_bottom"
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=true,south=true,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=true,south=true,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=true,south=true,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=true,south=true,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "south": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 180,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=true,south=false,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=true,south=false,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=true,south=false,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=true,south=false,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "north": {
+            "model": "nyasamabuilding:base/railing_side",
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=false,south=true,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=false,south=true,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=false,south=true,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=false,south=true,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "south": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 180,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=false,south=false,west=true,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=false,south=false,west=true,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "west": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 270,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=false,south=false,west=false,east=true": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post",
+        "submodel": {
+          "east": {
+            "model": "nyasamabuilding:base/railing_side",
+            "y": 90,
+            "uvlock": true
+          }
+        }
+      }
+    ],
+    "up=false,down=false,north=false,south=false,west=false,east=false": [
+      {
+        "textures": {
+          "texture": "nyasamabuilding:block/tread_steel_black"
+        },
+        "model": "nyasamabuilding:base/railing_post"
+      }
+    ]
+  }
+}

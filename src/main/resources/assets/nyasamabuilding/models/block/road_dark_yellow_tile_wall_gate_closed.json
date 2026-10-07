@@ -1,0 +1,6 @@
+{
+    "parent": "block/wall_gate_closed",
+    "textures": {
+        "texture": "nyasamabuilding:block/road_dark_yellow_tile"
+    }
+}

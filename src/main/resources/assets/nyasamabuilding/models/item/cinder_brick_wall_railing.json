@@ -1,0 +1,6 @@
+{
+    "parent": "nyasamabuilding:base/railing_inventory",
+    "textures": {
+        "texture": "nyasamabuilding:block/cinder_brick_wall"
+    }
+}

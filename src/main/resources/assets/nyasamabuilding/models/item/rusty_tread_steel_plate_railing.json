@@ -1,0 +1,6 @@
+{
+    "parent": "nyasamabuilding:base/railing_inventory",
+    "textures": {
+        "texture": "nyasamabuilding:block/rusty_tread_steel_plate"
+    }
+}

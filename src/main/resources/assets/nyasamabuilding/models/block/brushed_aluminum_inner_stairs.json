@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "nyasamabuilding:block/brushed_aluminum",
+        "top": "nyasamabuilding:block/brushed_aluminum",
+        "side": "nyasamabuilding:block/brushed_aluminum"
+    }
+}

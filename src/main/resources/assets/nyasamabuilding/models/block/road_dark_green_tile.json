@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "nyasamabuilding:block/road_dark_green_tile"
+    }
+}

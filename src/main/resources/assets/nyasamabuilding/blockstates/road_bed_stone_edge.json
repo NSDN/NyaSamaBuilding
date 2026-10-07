@@ -1,0 +1,157 @@
+{
+  "variants": {
+    "facing=north,half=top": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/road_bed_stone",
+          "side": "nyasamabuilding:block/road_bed_stone",
+          "bottom": "nyasamabuilding:block/road_bed_stone",
+          "face": "nyasamabuilding:block/road_bed_stone"
+        },
+        "model": "nyasamabuilding:base/edge_top",
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=north,half=bottom": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/road_bed_stone",
+          "side": "nyasamabuilding:block/road_bed_stone",
+          "bottom": "nyasamabuilding:block/road_bed_stone",
+          "face": "nyasamabuilding:block/road_bed_stone"
+        },
+        "model": "nyasamabuilding:base/edge_bottom",
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=north,half=tall": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/road_bed_stone",
+          "side": "nyasamabuilding:block/road_bed_stone",
+          "bottom": "nyasamabuilding:block/road_bed_stone",
+          "face": "nyasamabuilding:block/road_bed_stone"
+        },
+        "model": "nyasamabuilding:base/edge_tall",
+        "y": 90,
+        "uvlock": true
+      }
+    ],
+    "facing=south,half=top": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/road_bed_stone",
+          "side": "nyasamabuilding:block/road_bed_stone",
+          "bottom": "nyasamabuilding:block/road_bed_stone",
+          "face": "nyasamabuilding:block/road_bed_stone"
+        },
+        "model": "nyasamabuilding:base/edge_top",
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=south,half=bottom": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/road_bed_stone",
+          "side": "nyasamabuilding:block/road_bed_stone",
+          "bottom": "nyasamabuilding:block/road_bed_stone",
+          "face": "nyasamabuilding:block/road_bed_stone"
+        },
+        "model": "nyasamabuilding:base/edge_bottom",
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=south,half=tall": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/road_bed_stone",
+          "side": "nyasamabuilding:block/road_bed_stone",
+          "bottom": "nyasamabuilding:block/road_bed_stone",
+          "face": "nyasamabuilding:block/road_bed_stone"
+        },
+        "model": "nyasamabuilding:base/edge_tall",
+        "y": 270,
+        "uvlock": true
+      }
+    ],
+    "facing=west,half=top": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/road_bed_stone",
+          "side": "nyasamabuilding:block/road_bed_stone",
+          "bottom": "nyasamabuilding:block/road_bed_stone",
+          "face": "nyasamabuilding:block/road_bed_stone"
+        },
+        "model": "nyasamabuilding:base/edge_top",
+        "uvlock": true
+      }
+    ],
+    "facing=west,half=bottom": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/road_bed_stone",
+          "side": "nyasamabuilding:block/road_bed_stone",
+          "bottom": "nyasamabuilding:block/road_bed_stone",
+          "face": "nyasamabuilding:block/road_bed_stone"
+        },
+        "model": "nyasamabuilding:base/edge_bottom",
+        "uvlock": true
+      }
+    ],
+    "facing=west,half=tall": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/road_bed_stone",
+          "side": "nyasamabuilding:block/road_bed_stone",
+          "bottom": "nyasamabuilding:block/road_bed_stone",
+          "face": "nyasamabuilding:block/road_bed_stone"
+        },
+        "model": "nyasamabuilding:base/edge_tall",
+        "uvlock": true
+      }
+    ],
+    "facing=east,half=top": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/road_bed_stone",
+          "side": "nyasamabuilding:block/road_bed_stone",
+          "bottom": "nyasamabuilding:block/road_bed_stone",
+          "face": "nyasamabuilding:block/road_bed_stone"
+        },
+        "model": "nyasamabuilding:base/edge_top",
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=east,half=bottom": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/road_bed_stone",
+          "side": "nyasamabuilding:block/road_bed_stone",
+          "bottom": "nyasamabuilding:block/road_bed_stone",
+          "face": "nyasamabuilding:block/road_bed_stone"
+        },
+        "model": "nyasamabuilding:base/edge_bottom",
+        "y": 180,
+        "uvlock": true
+      }
+    ],
+    "facing=east,half=tall": [
+      {
+        "textures": {
+          "top": "nyasamabuilding:block/road_bed_stone",
+          "side": "nyasamabuilding:block/road_bed_stone",
+          "bottom": "nyasamabuilding:block/road_bed_stone",
+          "face": "nyasamabuilding:block/road_bed_stone"
+        },
+        "model": "nyasamabuilding:base/edge_tall",
+        "y": 180,
+        "uvlock": true
+      }
+    ]
+  }
+}

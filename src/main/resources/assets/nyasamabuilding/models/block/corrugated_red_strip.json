@@ -1,0 +1,8 @@
+{
+    "parent": "nyasamabuilding:base/strip",
+    "textures": {
+        "bottom": "nyasamabuilding:block/corrugated_red",
+        "top": "nyasamabuilding:block/corrugated_red",
+        "side": "nyasamabuilding:block/corrugated_red"
+    }
+}
