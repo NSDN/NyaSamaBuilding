@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:carpet_road_red_tile"
+      "model": "nyasamabuilding:block/carpet_road_red_tile"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:brushed_aluminum"
+      "model": "nyasamabuilding:block/brushed_aluminum"
     }
   }
 }

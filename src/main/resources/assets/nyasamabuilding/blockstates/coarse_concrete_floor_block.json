@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:coarse_concrete_floor"
+      "model": "nyasamabuilding:block/coarse_concrete_floor"
     }
   }
 }

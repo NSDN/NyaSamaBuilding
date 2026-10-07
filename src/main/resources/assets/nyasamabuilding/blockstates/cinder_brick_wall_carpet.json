@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:carpet_cinder_brick_wall"
+      "model": "nyasamabuilding:block/carpet_cinder_brick_wall"
     }
   }
 }

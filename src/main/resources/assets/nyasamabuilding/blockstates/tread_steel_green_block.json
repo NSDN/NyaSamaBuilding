@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:tread_steel_green"
+      "model": "nyasamabuilding:block/tread_steel_green"
     }
   }
 }

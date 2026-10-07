@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:carpet_brushed_aluminum"
+      "model": "nyasamabuilding:block/carpet_brushed_aluminum"
     }
   }
 }

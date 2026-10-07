@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:carpet_mineral_wool_celling_plate"
+      "model": "nyasamabuilding:block/carpet_mineral_wool_celling_plate"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:carpet_black_marble"
+      "model": "nyasamabuilding:block/carpet_black_marble"
     }
   }
 }

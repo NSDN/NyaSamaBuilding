@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:dark_latex_painted_wall"
+      "model": "nyasamabuilding:block/dark_latex_painted_wall"
     }
   }
 }

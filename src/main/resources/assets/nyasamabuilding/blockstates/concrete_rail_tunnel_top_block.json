@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:concrete_rail_tunnel_top"
+      "model": "nyasamabuilding:block/concrete_rail_tunnel_top"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:concrete_brick_wall"
+      "model": "nyasamabuilding:block/concrete_brick_wall"
     }
   }
 }

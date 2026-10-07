@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:carpet_rusty_tread_steel_plate"
+      "model": "nyasamabuilding:block/carpet_rusty_tread_steel_plate"
     }
   }
 }

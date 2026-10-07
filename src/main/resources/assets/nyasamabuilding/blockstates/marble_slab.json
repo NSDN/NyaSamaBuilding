@@ -1,10 +1,10 @@
 {
   "variants": {
     "half=bottom": {
-      "model": "nyasamabuilding:half_slab_marble"
+      "model": "nyasamabuilding:block/half_slab_marble"
     },
     "half=top": {
-      "model": "nyasamabuilding:upper_slab_marble"
+      "model": "nyasamabuilding:block/upper_slab_marble"
     }
   }
 }

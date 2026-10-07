@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:carpet_mesh_wire"
+      "model": "nyasamabuilding:block/carpet_mesh_wire"
     }
   }
 }

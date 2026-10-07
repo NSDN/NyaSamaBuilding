@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:road_grey_tile"
+      "model": "nyasamabuilding:block/road_grey_tile"
     }
   }
 }

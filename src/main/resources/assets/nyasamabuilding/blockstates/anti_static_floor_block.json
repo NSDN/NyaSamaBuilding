@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:anti_static_floor"
+      "model": "nyasamabuilding:block/anti_static_floor"
     }
   }
 }

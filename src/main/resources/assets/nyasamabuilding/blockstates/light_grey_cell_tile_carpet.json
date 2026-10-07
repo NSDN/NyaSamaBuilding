@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:carpet_light_grey_cell_tile"
+      "model": "nyasamabuilding:block/carpet_light_grey_cell_tile"
     }
   }
 }

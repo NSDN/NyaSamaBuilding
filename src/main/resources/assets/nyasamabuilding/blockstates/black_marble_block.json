@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:black_marble"
+      "model": "nyasamabuilding:block/black_marble"
     }
   }
 }

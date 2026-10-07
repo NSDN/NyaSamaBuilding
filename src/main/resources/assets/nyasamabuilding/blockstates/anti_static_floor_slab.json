@@ -1,10 +1,10 @@
 {
   "variants": {
     "half=bottom": {
-      "model": "nyasamabuilding:half_slab_anti_static_floor"
+      "model": "nyasamabuilding:block/half_slab_anti_static_floor"
     },
     "half=top": {
-      "model": "nyasamabuilding:upper_slab_anti_static_floor"
+      "model": "nyasamabuilding:block/upper_slab_anti_static_floor"
     }
   }
 }

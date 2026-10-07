@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:plazza_floor"
+      "model": "nyasamabuilding:block/plazza_floor"
     }
   }
 }

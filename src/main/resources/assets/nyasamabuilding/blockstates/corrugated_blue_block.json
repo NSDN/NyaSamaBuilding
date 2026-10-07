@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:corrugated_blue"
+      "model": "nyasamabuilding:block/corrugated_blue"
     }
   }
 }

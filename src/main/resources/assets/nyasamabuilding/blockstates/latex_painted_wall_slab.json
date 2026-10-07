@@ -1,10 +1,10 @@
 {
   "variants": {
     "half=bottom": {
-      "model": "nyasamabuilding:half_slab_latex_painted_wall"
+      "model": "nyasamabuilding:block/half_slab_latex_painted_wall"
     },
     "half=top": {
-      "model": "nyasamabuilding:upper_slab_latex_painted_wall"
+      "model": "nyasamabuilding:block/upper_slab_latex_painted_wall"
     }
   }
 }

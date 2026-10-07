@@ -1,10 +1,10 @@
 {
   "variants": {
     "half=bottom": {
-      "model": "nyasamabuilding:half_slab_road_dust_yellow_tile"
+      "model": "nyasamabuilding:block/half_slab_road_dust_yellow_tile"
     },
     "half=top": {
-      "model": "nyasamabuilding:upper_slab_road_dust_yellow_tile"
+      "model": "nyasamabuilding:block/upper_slab_road_dust_yellow_tile"
     }
   }
 }

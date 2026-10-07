@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:carpet_asphalt"
+      "model": "nyasamabuilding:block/carpet_asphalt"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:carpet_zry_tvbg_wall"
+      "model": "nyasamabuilding:block/carpet_zry_tvbg_wall"
     }
   }
 }

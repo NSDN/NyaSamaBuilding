@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:carpet_tarp_purple"
+      "model": "nyasamabuilding:block/carpet_tarp_purple"
     }
   }
 }

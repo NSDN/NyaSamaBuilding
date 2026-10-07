@@ -1,10 +1,10 @@
 {
   "variants": {
     "half=bottom": {
-      "model": "nyasamabuilding:half_slab_corrugated_yellow"
+      "model": "nyasamabuilding:block/half_slab_corrugated_yellow"
     },
     "half=top": {
-      "model": "nyasamabuilding:upper_slab_corrugated_yellow"
+      "model": "nyasamabuilding:block/upper_slab_corrugated_yellow"
     }
   }
 }

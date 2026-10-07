@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:red_ko_mak"
+      "model": "nyasamabuilding:block/red_ko_mak"
     }
   }
 }

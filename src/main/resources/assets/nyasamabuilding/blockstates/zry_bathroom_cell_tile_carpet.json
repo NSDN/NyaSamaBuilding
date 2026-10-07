@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "nyasamabuilding:carpet_zry_bathroom_cell_tile"
+      "model": "nyasamabuilding:block/carpet_zry_bathroom_cell_tile"
     }
   }
 }
