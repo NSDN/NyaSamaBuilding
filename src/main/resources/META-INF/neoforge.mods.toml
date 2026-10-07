@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "nyasamabuilding"
+version = "3.0.0"
+displayName = "NyaSama Building"
+authors = "drzzm32"
+description = '''NyaSama building mod.'''
+
+[[dependencies.nyasamabuilding]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nyasamabuilding]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nyasamabuilding]]
+modId = "nyasamalib"
+type = "required"
+versionRange = "[3.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
