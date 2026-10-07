@@ -5,6 +5,8 @@ import club.nsdn.nyasamabuilding.block.core.BlockCarpet;
 import club.nsdn.nyasamabuilding.block.core.BlockCube;
 import club.nsdn.nyasamabuilding.block.core.BlockFence;
 import club.nsdn.nyasamabuilding.block.core.BlockPane;
+import club.nsdn.nyasamabuilding.block.core.BlockRailing;
+import club.nsdn.nyasamabuilding.block.core.BlockRoof;
 import club.nsdn.nyasamabuilding.block.core.BlockSlab;
 import club.nsdn.nyasamabuilding.block.core.BlockStairs;
 import club.nsdn.nyasamabuilding.block.core.BlockWall;
@@ -102,6 +104,10 @@ public final class BuildingBlocks {
                 () -> new BlockSlab(base.get(), baseState, BlockLists.getProperties(type)));
         registerWithItem(id + "_carpet",
                 () -> new BlockCarpet(base.get(), BlockLists.getProperties(type)));
+        registerWithItem(id + "_railing",
+                () -> new BlockRailing(base.get(), BlockLists.getProperties(type)));
+        registerWithItem(id + "_roof",
+                () -> new BlockRoof(base.get(), BlockLists.getProperties(type)));
     }
 
     /** SOFT families: material-and-sound based pane and carpet, no base cube. */
