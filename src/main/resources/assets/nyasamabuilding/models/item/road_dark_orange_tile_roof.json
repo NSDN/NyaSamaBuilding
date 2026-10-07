@@ -1,3 +1,6 @@
 {
-  "parent": "nyasamabuilding:base/roof_inventory"
+  "parent": "nyasamabuilding:base/roof_inventory",
+  "textures": {
+    "texture": "nyasamabuilding:block/cube_all"
+  }
 }
