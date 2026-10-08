@@ -1154,5 +1154,6 @@
   "block.nyasamabuilding.tarp_yellow_pane": "黄色帆布板材",
   "block.nyasamabuilding.tarp_yellow_carpet": "黄色帆布地板",
   "block.nyasamabuilding.tatami_pane": "榻榻米板材",
-  "block.nyasamabuilding.tatami_carpet": "榻榻米地板"
+  "block.nyasamabuilding.tatami_carpet": "榻榻米地板",
+  "item.nyasamabuilding.probe": "探针"
 }
