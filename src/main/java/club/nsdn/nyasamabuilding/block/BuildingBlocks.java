@@ -18,6 +18,7 @@ import club.nsdn.nyasamabuilding.block.core.BlockWall;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -36,7 +37,9 @@ import net.neoforged.neoforge.registries.DeferredRegister;
  * gone in 1.21.1 and item models are pure JSON under {@code assets/<modid>/models/item/}. Writing
  * those JSON files (or generating them via DataGen) replaces the old client event handler.</p>
  *
- * <p>Current scope: the {@code HARD} table's full cubes. The 13 derived variants per family
+ * <p>Current scope: the three standalone glass panels ({@code nsb_sign}, {@code nsb_nsdn},
+ * {@code nsb_logo}) that 1.12.2 registered before the tables, plus the {@code HARD} table's full
+ * cubes. The 13 derived variants per family
  * (carpet, edge, railing, roof, fence, fence gate, pane, slab, stairs, strip, vslab, vstrip, wall)
  * are being ported one class at a time; each needs its own {@code codec()} and shape logic.</p>
  */
@@ -66,6 +69,8 @@ public final class BuildingBlocks {
         BLOCK_TYPES.register("edge", () -> BlockEdge.CODEC);
         BLOCK_TYPES.register("vstrip", () -> BlockVStrip.CODEC);
 
+        registerPanels();
+
         // HARD families: the full cube first, then the derived shapes that borrow from it.
         // The variant suppliers call holder.get() lazily; NeoForge runs a DeferredRegister's
         // suppliers in registration order, so the base cube is already registered by then.
@@ -80,6 +85,41 @@ public final class BuildingBlocks {
         for (String[] info : BlockLists.SOFT) {
             softPane(info[BlockLists.ID], info[BlockLists.TYPE]);
         }
+    }
+
+    /**
+     * The three standalone glass panels, ported from the top of the 1.12.2 {@code BlockLoader}
+     * constructor (lines 75-78): {@code new BlockSign()}, {@code new BlockNSDNLogo()} and
+     * {@code logo = new BlockLogo()}.
+     *
+     * <p>They are not part of the {@link BlockLists} family tables -- each had its own class, its own
+     * registry name and only one shape -- so they are registered here one by one. All three took
+     * {@code Material.GLASS} with {@code setHardness(2.0F)}, {@code setResistance(10.0F)},
+     * {@code setLightLevel(1)} and {@code setSoundType(SoundType.GLASS)}, which is exactly what
+     * {@link BlockLists#getProperties} returns for {@link BlockLists#TYPE_GLASS}; the extra
+     * {@code noOcclusion()} carries over the non-opaque cube of {@code BlockGlass} (1.21.1 glass
+     * blocks all set it, and the sibling {@code nyasamaoptics} panels do the same).</p>
+     *
+     * <p>{@code setLightLevel(1)} is light level <b>1</b>, not 15: 1.12.2 stored 0..1 and scaled it
+     * by 15, and its metadata {@code getLightValue} returned the raw value. The sibling
+     * {@code nyasamaoptics} panels were ported with {@code lightLevel(state -> 15)}; that is not what
+     * the 1.12.2 sources say, so the literal value is kept here.</p>
+     */
+    public static void registerPanels() {
+        registerWithItem("nsb_sign", () -> new BlockSign(panelProperties()));
+        registerWithItem("nsb_nsdn", () -> new BlockNSDNLogo(panelProperties()));
+        registerWithItem("nsb_logo", () -> new BlockLogo(panelProperties()));
+    }
+
+    /**
+     * Fresh glass-panel properties. A new instance per block on purpose, matching the rule stated in
+     * {@link BlockLists#getProperties}: {@code BlockBehaviour.Properties} is mutable, so one shared
+     * instance would let a later tweak leak into every sibling.
+     */
+    private static BlockBehaviour.Properties panelProperties() {
+        return BlockLists.getProperties(BlockLists.TYPE_GLASS)
+                .lightLevel(state -> 1)
+                .noOcclusion();
     }
 
     /** Registers one full cube plus its {@code BlockItem}. */
