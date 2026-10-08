@@ -64,7 +64,7 @@
   "block.nyasamabuilding.road_yellow_tile": "Yellow Roadside Tile",
   "block.nyasamabuilding.rusty_tread_steel_plate": "Rusty Tread Plate",
   "block.nyasamabuilding.sand_brick": "Sand Brick",
-  "block.nyasamabuilding.square_iron_mesh": "Square Iron Mesh",
+  "block.nyasamabuilding.square_iron_mesh": "Square-Hole Iron",
   "block.nyasamabuilding.tarp_blue": "Blue Tarp",
   "block.nyasamabuilding.tarp_green": "Green Tarp",
   "block.nyasamabuilding.tarp_magenta": "Magenta Tarp",
@@ -1107,8 +1107,6 @@
   "block.nyasamabuilding.tread_steel_yellow_fence_gate": "Yellow Tread Plate Fence Gate",
   "block.nyasamabuilding.tread_steel_yellow_strip": "Yellow Tread Plate Horizontal Strip",
   "block.nyasamabuilding.tread_steel_yellow_vslab": "Yellow Tread Plate Vertical Slab",
-  "block.nyasamabuilding.square_iron_mesh_pane": "Square Iron Mesh Pane",
-  "block.nyasamabuilding.square_iron_mesh_carpet": "Square Iron Mesh Carpet",
   "block.nyasamabuilding.tarp_blue_pane": "Blue Tarp Pane",
   "block.nyasamabuilding.tarp_blue_carpet": "Blue Tarp Carpet",
   "block.nyasamabuilding.tarp_green_pane": "Green Tarp Pane",
@@ -1155,5 +1153,7 @@
   "block.nyasamabuilding.dense_mesh_wire_pane": "Dense Iron Wire Pane",
   "block.nyasamabuilding.dense_mesh_wire_carpet": "Dense Iron Wire Carpet",
   "block.nyasamabuilding.mesh_wire_pane": "Iron Wire Pane",
-  "block.nyasamabuilding.mesh_wire_carpet": "Iron Wire Carpet"
+  "block.nyasamabuilding.mesh_wire_carpet": "Iron Wire Carpet",
+  "block.nyasamabuilding.square_iron_mesh_pane": "Square-Hole Iron Pane",
+  "block.nyasamabuilding.square_iron_mesh_carpet": "Square-Hole Iron Carpet"
 }
