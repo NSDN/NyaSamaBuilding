@@ -55,6 +55,14 @@ public final class BuildingBlocks {
     public static final DeferredRegister<MapCodec<? extends Block>> BLOCK_TYPES =
             DeferredRegister.create(BuiltInRegistries.BLOCK_TYPE, NyaSamaBuilding.MODID);
 
+    /**
+     * 1.12.2 {@code BlockLoader.logo}: the panel drawn as the module's creative tab icon, which the
+     * 1.12.2 tab asked for by {@code itemBlocks.get(BlockLoader.logo).getDefaultInstance()}. Assigned
+     * by {@link #registerPanels()} (not {@code final}, because panel registration runs from the static
+     * initialiser, the same shape {@code ElectricityBlocks.LOGO} uses in the sibling module).
+     */
+    public static DeferredBlock<BlockLogo> LOGO;
+
     private BuildingBlocks() {
     }
 
@@ -104,11 +112,14 @@ public final class BuildingBlocks {
      * by 15, and its metadata {@code getLightValue} returned the raw value. The sibling
      * {@code nyasamaoptics} panels were ported with {@code lightLevel(state -> 15)}; that is not what
      * the 1.12.2 sources say, so the literal value is kept here.</p>
+     *
+     * <p>The {@code nsb_logo} holder is kept in {@link #LOGO} rather than discarded, because the
+     * 1.12.2 {@code CreativeTabLoader} used that panel as the tab icon.</p>
      */
     public static void registerPanels() {
         registerWithItem("nsb_sign", () -> new BlockSign(panelProperties()));
         registerWithItem("nsb_nsdn", () -> new BlockNSDNLogo(panelProperties()));
-        registerWithItem("nsb_logo", () -> new BlockLogo(panelProperties()));
+        LOGO = registerWithItem("nsb_logo", () -> new BlockLogo(panelProperties()));
     }
 
     /**

@@ -82,11 +82,11 @@ import net.minecraft.world.level.block.state.BlockState;
  *       block from being used, which is the 1.12.2 behaviour of that pair.</td></tr>
  * </table>
  *
- * <p><b>Creative tab:</b> 1.12.2 put this item in {@code CreativeTabLoader.tabNyaSamaBuilding}. The
- * ported module has no creative-tab code at all yet (the lang key
- * {@code itemGroup.tabNyaSamaBuilding} is already reserved for it), and adding one would be a new
- * feature rather than a port, so the item is currently reachable by {@code /give} only -- the same
- * state as every other item of this module.</p>
+ * <p><b>Creative tab:</b> 1.12.2 put this item in {@code CreativeTabLoader.tabNyaSamaBuilding} (that
+ * tab's icon was {@code BlockLoader.logo}, i.e. {@code nsb_logo}). The 1.21.1 port initially shipped
+ * without the tab, so the item was reachable by {@code /give} only; {@code creativetab.CreativeTabLoader}
+ * now registers {@code tab_nyasamabuilding} and enumerates {@code BuildingItems.ITEMS}, which is what
+ * puts {@code probe} back in the tab.</p>
  */
 public class ItemProbe extends ToolBase {
 

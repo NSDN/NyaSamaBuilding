@@ -1,6 +1,7 @@
 package club.nsdn.nyasamabuilding;
 
 import club.nsdn.nyasamabuilding.block.BuildingBlocks;
+import club.nsdn.nyasamabuilding.creativetab.CreativeTabLoader;
 import club.nsdn.nyasamabuilding.item.BuildingItems;
 import club.nsdn.nyasamabuilding.item.ItemProbe;
 import net.neoforged.api.distmarker.Dist;
@@ -18,7 +19,8 @@ import org.slf4j.LoggerFactory;
  *
  * <p>Ported from the 1.12.2 shape that used {@code @Mod.Instance}, {@code @SidedProxy} plus
  * {@code @Mod.EventHandler} preInit/init/postInit. As in {@code nyasamalib}, the proxies are gone:
- * registration happens through {@link BuildingBlocks} and {@link BuildingItems} on the mod bus, and
+ * registration happens through {@link BuildingBlocks}, {@link BuildingItems} and
+ * {@link CreativeTabLoader} on the mod bus, and
  * anything client-only belongs in a {@code Dist.CLIENT} class.</p>
  *
  * <p>The 1.12.2 {@code serverLoad(FMLServerStartingEvent)} hook registered
@@ -42,6 +44,9 @@ public class NyaSamaBuilding {
     public NyaSamaBuilding(IEventBus modBus, ModContainer container, Dist dist) {
         BuildingBlocks.register(modBus);
         BuildingItems.register(modBus);
+        // 1.12.2 built tabNyaSamaBuilding from CommonProxy.preInit; in 1.21.1 the tab is a registry
+        // object, so its DeferredRegister joins the mod bus next to the block and item registers.
+        CreativeTabLoader.register(modBus);
         modBus.addListener(this::commonSetup);
 
         // 1.12.2 NyaSamaBuilding.serverLoad(FMLServerStartingEvent):
