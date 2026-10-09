@@ -24,6 +24,8 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+import java.util.function.Supplier;
+
 /**
  * Registration for all {@code nyasamabuilding} blocks and their items.
  *
@@ -86,7 +88,7 @@ public final class BuildingBlocks {
             String id = info[BlockLists.ID];
             String type = info[BlockLists.TYPE];
             DeferredBlock<BlockCube> base = cube(id, type);
-            variants(base, base.get().defaultBlockState(), id, type);
+            variants(base, defaultStateOf(base), id, type);
         }
 
         // SOFT families have no full cube in 1.12.2 either: a pane and (later) a carpet each.
@@ -143,15 +145,60 @@ public final class BuildingBlocks {
     }
 
     /**
+     * The base cube's default state, resolved <b>when a variant's supplier runs</b> (i.e. while
+     * {@code BLOCKS} consumes its {@code RegisterEvent}) and computed only once per family.
+     *
+     * <p>Resolving it here in the static initialiser instead would throw
+     * {@code NullPointerException: Trying to access unbound value}: a {@link DeferredRegister} binds its
+     * holders while it consumes the {@code RegisterEvent}, so {@code base.get()} is illegal during
+     * {@code <clinit>}. NeoForge binds each entry right after registering it and walks the entries in
+     * order, so by the time any derived shape's supplier runs the base cube is already bound.</p>
+     *
+     * <p>The value must be memoised rather than recomputed per access: the vanilla stair / strip / vslab
+     * base constructors take the state itself ({@code StairBlock(BlockState, Properties)} reads
+     * {@code baseState.getBlock()}), and the original code handed all thirteen derived blocks of a
+     * family the single object returned by one {@code base.get().defaultBlockState()} call.</p>
+     */
+    private static Supplier<BlockState> defaultStateOf(DeferredBlock<BlockCube> base) {
+        return new BaseState(base);
+    }
+
+    /**
+     * Lazy, single-shot holder of a family's base state. Its lifetime is one class initialisation, so
+     * the unsynchronised field is not shared across threads before it is written.
+     */
+    private static final class BaseState implements Supplier<BlockState> {
+        private final DeferredBlock<BlockCube> base;
+        private BlockState value;
+
+        private BaseState(DeferredBlock<BlockCube> base) {
+            this.base = base;
+        }
+
+        @Override
+        public BlockState get() {
+            if (value == null) {
+                value = base.get().defaultBlockState();
+            }
+            return value;
+        }
+    }
+
+    /**
      * The shapes derived from a HARD family's full cube.
      *
      * <p>1.12.2 also derived carpet, edge, railing, roof, fence gate, slab, strip, vslab and vstrip
      * from each family; those classes are still being ported, so only the ones with a direct vanilla
      * counterpart are registered here.</p>
+     *
+     * <p>{@code baseState} is a supplier, not a {@link BlockState}, for the reason given on
+     * {@link #defaultStateOf}: the state cannot be produced until the base cube has been registered.
+     * It is evaluated inside each supplier below, which also keeps these registrations in the same
+     * lazy shape as {@code base.get()}, which every one of them already used.</p>
      */
-    public static void variants(DeferredBlock<BlockCube> base, BlockState baseState, String id, String type) {
+    public static void variants(DeferredBlock<BlockCube> base, Supplier<BlockState> baseState, String id, String type) {
         registerWithItem(id + "_stairs",
-                () -> new BlockStairs(base.get(), baseState, BlockLists.getProperties(type)));
+                () -> new BlockStairs(base.get(), baseState.get(), BlockLists.getProperties(type)));
         registerWithItem(id + "_fence",
                 () -> new BlockFence(base.get(), BlockLists.getProperties(type)));
         registerWithItem(id + "_wall",
@@ -159,7 +206,7 @@ public final class BuildingBlocks {
         registerWithItem(id + "_pane",
                 () -> new BlockPane(base.get(), BlockLists.getProperties(type)));
         registerWithItem(id + "_slab",
-                () -> new BlockSlab(base.get(), baseState, BlockLists.getProperties(type)));
+                () -> new BlockSlab(base.get(), baseState.get(), BlockLists.getProperties(type)));
         registerWithItem(id + "_carpet",
                 () -> new BlockCarpet(base.get(), BlockLists.getProperties(type)));
         registerWithItem(id + "_railing",
@@ -174,9 +221,9 @@ public final class BuildingBlocks {
                 () -> new BlockFenceGate(base.get(), BlockLists.getProperties(type),
                         BlockFenceGate.openSoundFor(type), BlockFenceGate.closeSoundFor(type)));
         registerWithItem(id + "_strip",
-                () -> new BlockStrip(base.get(), baseState, BlockLists.getProperties(type)));
+                () -> new BlockStrip(base.get(), baseState.get(), BlockLists.getProperties(type)));
         registerWithItem(id + "_vslab",
-                () -> new BlockVSlab(base.get(), baseState, BlockLists.getProperties(type)));
+                () -> new BlockVSlab(base.get(), baseState.get(), BlockLists.getProperties(type)));
     }
 
     /** SOFT families: material-and-sound based pane and carpet, no base cube. */
