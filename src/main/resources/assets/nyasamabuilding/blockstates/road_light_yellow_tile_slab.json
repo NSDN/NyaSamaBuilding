@@ -1,9 +1,9 @@
 {
   "variants": {
-    "half=bottom": {
+    "type=bottom": {
       "model": "nyasamabuilding:block/half_slab_road_light_yellow_tile"
     },
-    "half=top": {
+    "type=top": {
       "model": "nyasamabuilding:block/upper_slab_road_light_yellow_tile"
     }
   }
